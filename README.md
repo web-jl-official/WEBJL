@@ -124,7 +124,7 @@ We appreciate your interest and look forward to hearing from you!
 After downloading the project, you need to create a file named `.env`. In this file, you need to paste the context we have provided below. After pasting, fill in the empty streams with your ID and password as specified. Similarly, provide the payment gateway ID and password. I will also provide the complete contact information. Create the `.env` file and insert the information into it. After this, your project will work as intended. You can then edit and use it as you wish. Thank you for watching.
 
 
-```evn
+```env
 # Firebase Database Configuration
 VITE_FIREBASE_API_KEY = "API_KEY"
 VITE_FIREBASE_AUTH_DOMAIN = "AUTH_DOMAIN"

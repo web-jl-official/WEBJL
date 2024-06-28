@@ -70,12 +70,14 @@ import LEARN_REACT from './pages/allproducts/cources/React/Cources/LEARN_REACT';
 import Python from './pages/allproducts/cources/Python/Python';
 import PY_Calendar from './pages/allproducts/cources/Python/Cources/PY_Calendar';
 import PY_Loop from './pages/allproducts/cources/Python/Cources/Py_Loop';
+import QrCode from "./pages/allproducts/cources/Python/Cources/QrCode";
 
 
 import Prumium_cources from './pages/all prumium cources/prumium_cources';
 import Resetpassword from './pages/registration/Resetpassword';
 import WEB_DEVLOPMENT from './pages/all prumium cources/cources/WEB_DEVLOPMENT';
 import Profile from './pages/profile/Profile';
+
 
 
 
@@ -156,8 +158,9 @@ function App() {
           <Route path="/Project_React" element={<PRoject_COPY />} />
 
           <Route path="/Python" element={<Python />} />
-          <Route path="/Py_Loop" element={<PY_Loop/>} />
+          <Route path="/Py_Loop" element={<PY_Loop />} />
           <Route path="/Py_Calendar" element={<PY_Calendar />} />
+          <Route path="/Py_QrCode" element={<QrCode />} />
 
           <Route path="/HTML" element={<HTML />} />
           <Route path="/HTML_COURCE" element={<HTML_PROJECT_COURCE />} />

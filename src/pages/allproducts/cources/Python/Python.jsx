@@ -77,6 +77,25 @@ export default function Python() {
                   </div>
                 </a>
               </div>
+              {/* anker tag using link for page */}
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <a href="/Py_QrCode">
+                  <div
+                    style={{ height: "180px", width: "280px" }}
+                    className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
+                  >
+                    <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
+                      Python Language
+                    </h3>
+                    <h2 className="text-lg text-white font-medium title-font mb-4">
+                      Python Qr Code Generate
+                    </h2>
+                    <p className="leading-relaxed text-base">
+                      Qr Code Generater Upi, Data, link, upi Amount Software etc
+                    </p>
+                  </div>
+                </a>
+              </div>
             </div>
           </section>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../../../../../components/layout/Layout";
 
 const QrCode = () => {
-    const QrCode = `
+  const QrCode = `
 import qrcode
 
 # Data to be encoded
@@ -26,8 +26,8 @@ img = qr.make_image(fill_color="black", back_color="white")
 # Save the image
 img.save("qrcode.png")
   `;
-    
-const QrcodeUpi = `
+
+  const QrcodeUpi = `
 import qrcode
 
 # UPI details
@@ -56,8 +56,8 @@ img = qr.make_image(fill_color="black", back_color="white")
 # Save the image
 img.save("upi_qrcode.png")
   `;
-    
-     const QrCodeUPISOFTWAREAMOUNT = `
+
+  const QrCodeUPISOFTWAREAMOUNT = `
 import tkinter as tk
 from tkinter import messagebox
 import qrcode
@@ -102,7 +102,7 @@ qr_label.pack(pady=10)
 
 app.mainloop()
   `;
-     const pythonCode = `
+  const pythonCode = `
 import tkinter as tk
 from tkinter import messagebox
 import qrcode
@@ -207,5 +207,5 @@ app.mainloop()
     </Layout>
   );
 };
-
+  
 export default QrCode;

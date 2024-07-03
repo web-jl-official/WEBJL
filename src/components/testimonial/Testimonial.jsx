@@ -20,7 +20,7 @@ function Testimonial() {
                   <img
                     alt="testimonial"
                     className=" w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                    src="https://firebasestorage.googleapis.com/v0/b/lgt-college-official.appspot.com/o/LIVESH.jpg?alt=media&token=6507bd61-83ec-442c-8609-51d50f9f6c25"
+                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/DEVLOPERS%2FLIVESH.jpg?alt=media&token=256f6def-e18e-4770-91f9-41976395f544"
                   />
                   <p className=" leading-relaxed text-cyan-400">
                     Senior Developer & Founder of WEB JL
@@ -46,7 +46,7 @@ function Testimonial() {
                   <img
                     alt="testimonial"
                     className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                    src="https://firebasestorage.googleapis.com/v0/b/lgt-college-official.appspot.com/o/20240601_191032(1).jpg?alt=media&token=124f1ad5-4b0c-4342-b4a1-c0e40094ad14"
+                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/DEVLOPERS%2F20240601_191032(1).jpg?alt=media&token=945d0318-b89c-411d-8ea4-06085d288220"
                   />
                   <p className=" leading-relaxed text-cyan-400">
                     Junior Developer & Co-Founder of WEB JL.
@@ -79,7 +79,7 @@ function Testimonial() {
                   <img
                     alt="testimonial"
                     className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                    src="https://firebasestorage.googleapis.com/v0/b/lgt-college-official.appspot.com/o/Tushar.png?alt=media&token=3efc5f5a-793d-4899-ae46-8d36f302b949"
+                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/DEVLOPERS%2FTushar.png?alt=media&token=ef869957-b96e-4314-a2c6-8cb0e68c2d46"
                   />
                   <p className=" leading-relaxed text-cyan-400">
                     Junior Developer & Project Manager.

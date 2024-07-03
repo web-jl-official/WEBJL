@@ -126,6 +126,14 @@ function Navbar() {
                   </div>
                   <div>
                     <Link
+                      to={"/mimit"}
+                      className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
+                    >
+                      Mimit College
+                    </Link>
+                  </div>
+                  <div>
+                    <Link
                       to={"/About"}
                       className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
                     >
@@ -281,6 +289,12 @@ function Navbar() {
                   ) : (
                     ""
                   )}
+                    <Link
+                      to={"/mimit"}
+                      className="text-sm font-medium    text-white  hover:text-cyan-400 "
+                    >
+                      Mimit College
+                    </Link>
                   {user?.user?.email === "lgteamworkofficial@gmail.com" ? (
                     <Link
                       to={"/dashboard"}
@@ -311,8 +325,6 @@ function Navbar() {
                       </Link>
                     </div>
                   )}
-
-                  
                 </div>
 
                 {/* Cart */}

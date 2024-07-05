@@ -103,6 +103,7 @@ const Birthday = () => {
         setDownlode(
           "https://drive.google.com/file/d/13h7yKScEefbSSmLkLk4gxGrgLQiv9SQa/view?usp=drive_link"
         );
+
         break;
       case "2003-08-31":
       case "2024-08-31":
@@ -128,6 +129,19 @@ const Birthday = () => {
         );
         setDownlode(
           "https://drive.google.com/file/d/1G-VTLJ6USOd6glnuYy4rSS0-_PFkoIUs/view?usp=drive_link"
+        );
+        break;
+      case "2005-12-20":
+      case "2024-12-20":
+        setUserName("Sharik");
+        setImage(
+          "https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/Birthday%20Card%2Fsharik.jpeg?alt=media&token=d1d1faec-0e45-43a9-8ccd-a2cfd6401d97"
+        );
+        setBirthWish(
+          `Happy Birthday to the most amazing brother in the world! Your kindness, love, and support mean everything to me. I am so grateful to have you in my life, and I cherish every moment we share. May your special day be filled with joy, laughter, and all the wonderful things you deserve. Love you always!`
+        );
+        setDownlode(
+          "https://drive.google.com/file/d/1E76gsQuPj62acHdP7mcLOOqz93y6wX7z/view?usp=drive_link"
         );
         break;
       default:
@@ -204,8 +218,10 @@ const Birthday = () => {
               </div>
 
               <div className="flex p-4 bg-gray-100 justify-evenly">
+                
                 <button
                   onClick={handleDownload}
+
                   className="bg-blue-500 text-white px-4 py-2 rounded"
                 >
                   Downlode Card

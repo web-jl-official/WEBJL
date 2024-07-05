@@ -54,7 +54,7 @@ function Order() {
                                   {item.title}
                                 </h2>
                                 <p
-                                  className="mt-1 text-base text-gray-700"
+                                  className="mt-1 text-base text-gray-700 h-12 overflow-hidden"
                                   style={{
                                     color: mode === "dark" ? "white" : "",
                                   }}

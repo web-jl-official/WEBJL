@@ -180,7 +180,7 @@ function Cart() {
                         {title}
                       </h2>
                       <h2
-                        className="text-sm  text-gray-900"
+                        className="text-sm h-11 text-gray-900 overflow-hidden"
                         style={{ color: mode === "dark" ? "white" : "" }}
                       >
                         {description}

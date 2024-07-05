@@ -47,24 +47,23 @@ export default function prumium_cources() {
                 const { title, price, description, imageUrl, id } = item;
                 return (
                   <>
-                    <div
-                      className="container px-5 py-24 mx-auto"
-                      onClick={() =>
-                        (window.location.href = `/productinfo/${id}`)
-                      }
-                      key={index}
-                    >
-                      <div className="flex flex-wrap -m-4">
-                        <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-                            <img
-                              alt="ecommerce"
-                              className="object-center w-full h-48 block bg-black object-fill"
-                              style={{
-                                backgroundColor: "#181818",
-                                width: "fit-content",
-                              }}
-                              src={imageUrl}
-                            />
+                    <div>
+                      <div className="flex flex-wrap m-4 justify-evenly">
+                        <div
+                          onClick={() =>
+                            (window.location.href = `/productinfo/${id}`)
+                          }
+                          key={index}       
+                        >
+                          <img
+                            alt="ecommerce"
+                            className="object-center w-full h-48 block bg-black object-fill"
+                            style={{
+                              backgroundColor: "#181818",
+                              width: "fit-content",
+                            }}
+                            src={imageUrl}
+                          />
                           <div className="mt-4">
                             <h3 className="   text-white text-xs tracking-widest title-font mb-1">
                               WEB JL

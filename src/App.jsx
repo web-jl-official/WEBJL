@@ -95,6 +95,7 @@ import Mimit4 from "./pages/College/Semester/4/Mimit";
 import Mimit5 from "./pages/College/Semester/5/Mimit";
 import Mimit6 from "./pages/College/Semester/6/Mimit";
 import Birthday from './pages/Birthday/Birthday';
+import Github from './pages/all prumium cources/cources/Github';
 
 
 
@@ -203,6 +204,7 @@ function App() {
           <Route path="/mimit6" element={<Mimit6 />} />
 
           <Route path="/Birthday" element={<Birthday />} />
+          <Route path="/Github" element={<Github />} />
         </Routes>
         <ToastContainer />
       </Router>

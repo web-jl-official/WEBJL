@@ -50,7 +50,7 @@ const Github = () => {
               <a className="flex relative h-48 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="object-cover object-center w-full h-full block"
+                  className="object-center w-full h-full block object-fill rounded-xl "
                   style={{ backgroundColor: "#181818", width: "fit-content" }}
                   src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/download.jpeg?alt=media&token=eabe7e0d-46b3-4dae-8bfa-a00b885852c1"
                 />

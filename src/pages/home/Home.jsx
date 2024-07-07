@@ -27,18 +27,20 @@ function Home() {
               Hello & Welcome
             </h1>
             <div className="flex text-center items-center justify-center ">
-              <p className=" w-80 text-white  text-sm mt-5 mb-5">
-                This is an educational website with language notes and short &
-                long projects for revision. We provide all types of code,
-                projects, and source code programs, etc. This website works with
-                a web community in India and will soon establish a physical
-                company in India.
+              <p className=" w-80  text-sm mt-5 mb-5 text-white">
+                Join WEB JL for advanced features and free or discounted
+                courses. With our support, you’ll gain access to expert
+                guidance, sports assistance, and production-level project source
+                code. Whether you’re planning for college, searching for
+                internships, or launching your career, WEB JL has you covered.
+                Get started today!
               </p>
             </div>
+
             {user ? (
-              <a href="/allproducts">
+              <a href="/prumium_cources">
                 <button className="bg-gray-900  px-8  py-2 rounded-full text-cyan-400 font-extrabold font-serif">
-                  Hello {UserName}
+                  Hello, Welcome To Web JL
                 </button>
               </a>
             ) : (

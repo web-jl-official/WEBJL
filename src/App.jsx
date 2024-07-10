@@ -25,7 +25,7 @@ import Cart from './pages/cart/Cart';
 import ProductInfo from './pages/productInfo/ProductInfo';
 import AddProduct from './pages/admin/page/AddProduct';
 import UpdateProduct from './pages/admin/page/UpdateProduct';
-import Profile from './pages/profile/Profile';
+
 
 
 import Cpp from './pages/allproducts/cources/C++/Cpp';
@@ -100,7 +100,6 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Profile" element={<Profile />} />
           <Route path="/allproducts" element={<Allproducts />} />
           <Route path="/productinfo/:id" element={<ProductInfo />} />
           <Route path="/prumium_cources" element={<Prumium_cources />} />

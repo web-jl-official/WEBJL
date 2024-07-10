@@ -99,16 +99,16 @@ function Navbar() {
                   ) : (
                     ""
                   )}
-                 
-                    <div>
-                      <Link
-                        to={"/prumium_cources"}
-                        className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
-                      >
-                        Premium Courses
-                      </Link>
-                    </div>
-                  
+
+                  <div>
+                    <Link
+                      to={"/prumium_cources"}
+                      className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
+                    >
+                      Premium Courses
+                    </Link>
+                  </div>
+
                   <div>
                     {user?.user?.email === "lgteamworkofficial@gmail.com" ? (
                       <Link
@@ -121,7 +121,7 @@ function Navbar() {
                       ""
                     )}
                   </div>
-                  
+
                   <div>
                     <Link
                       to={"/About"}
@@ -258,13 +258,14 @@ function Navbar() {
                     Free Courses
                   </Link>
 
-                  
-                    <Link
-                      to={"/prumium_cources"}
-                      className="text-sm font-medium    text-white  hover:text-cyan-400"
-                    >
-                      Premium Courses
-                    </Link>                 
+                  <Link
+                    to={"/prumium_cources"}
+                    className="text-sm font-medium    text-white  hover:text-cyan-400"
+                  >
+                    Premium Courses
+                  </Link>
+
+              
 
                   {user ? (
                     <Link
@@ -276,7 +277,7 @@ function Navbar() {
                   ) : (
                     ""
                   )}
-                    
+
                   {user?.user?.email === "lgteamworkofficial@gmail.com" ? (
                     <Link
                       to={"/dashboard"}
@@ -312,7 +313,7 @@ function Navbar() {
                 {/* Cart */}
                 <div className="ml-4 flow-root lg:ml-6">
                   <Link
-                    to={user? "/cart":"/login"}
+                    to={user ? "/cart" : "/login"}
                     className="group -m-2 flex items-center p-2 text-cyan-400"
                     style={{ color: mode === "dark" ? "white" : "" }}
                   >

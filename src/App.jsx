@@ -25,7 +25,7 @@ import Cart from './pages/cart/Cart';
 import ProductInfo from './pages/productInfo/ProductInfo';
 import AddProduct from './pages/admin/page/AddProduct';
 import UpdateProduct from './pages/admin/page/UpdateProduct';
-
+import Profile from './pages/profile/Profile';
 
 
 import Cpp from './pages/allproducts/cources/C++/Cpp';
@@ -76,24 +76,9 @@ import QrCode from "./pages/allproducts/cources/Python/Cources/QrCode";
 import Prumium_cources from './pages/all prumium cources/prumium_cources';
 import Resetpassword from './pages/registration/Resetpassword';
 import WEB_DEVLOPMENT from './pages/all prumium cources/cources/WEB_DEVLOPMENT';
-import Profile from './pages/profile/Profile';
 
 
 
-import Mimit from './pages/College/Mimit';
-
-
-import Mimit1 from './pages/College/Semester/1/Mimit';
-
-
-import Mimit2 from "./pages/College/Semester/2/Mimit";
-import All_Program_Cpp from "./pages/College/Semester/2/Courcess/All_Program_Cpp";
-
-
-import Mimit3 from "./pages/College/Semester/3/Mimit";
-import Mimit4 from "./pages/College/Semester/4/Mimit";
-import Mimit5 from "./pages/College/Semester/5/Mimit";
-import Mimit6 from "./pages/College/Semester/6/Mimit";
 import Birthday from './pages/Birthday/Birthday';
 import Github from './pages/all prumium cources/cources/Github';
 
@@ -115,8 +100,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-
-          <Route path="/profile" element={<Profile />} />
+          <Route path="/Profile" element={<Profile />} />
           <Route path="/allproducts" element={<Allproducts />} />
           <Route path="/productinfo/:id" element={<ProductInfo />} />
           <Route path="/prumium_cources" element={<Prumium_cources />} />
@@ -167,7 +151,6 @@ function App() {
           <Route path="/Cpp" element={<Cpp />} />
           <Route path="/Cpp_Bank_Acoount" element={<Banckaccount />} />
           <Route path="/Cpp_Factorial" element={<Factorial />} />
-          <Route path="/mimit/CppAllProgram" element={<All_Program_Cpp />} />
 
           <Route path="/C_Lan" element={<C_Lan />} />
           <Route path="/C_Multifunction" element={<Multifunction />} />
@@ -194,14 +177,6 @@ function App() {
           <Route path="/Js_01_basic" element={<Js_01_basic />} />
           <Route path="/Js_02_basic" element={<Js_02_basic />} />
           <Route path="/texttospeech" element={<TextToSpeech />} />
-
-          <Route path="/mimit" element={<Mimit />} />
-          <Route path="/mimit1" element={<Mimit1 />} />
-          <Route path="/mimit2" element={<Mimit2 />} />
-          <Route path="/mimit3" element={<Mimit3 />} />
-          <Route path="/mimit4" element={<Mimit4 />} />
-          <Route path="/mimit5" element={<Mimit5 />} />
-          <Route path="/mimit6" element={<Mimit6 />} />
 
           <Route path="/Birthday" element={<Birthday />} />
           <Route path="/Github" element={<Github />} />

@@ -26,16 +26,28 @@ function Home() {
             <h1 className=" text-cyan-400 font-extrabold text-6xl text-center items-center">
               Hello & Welcome
             </h1>
-            <div className="flex text-center items-center justify-center ">
-              <p className=" w-80  text-sm mt-5 mb-5 text-white">
-                Join WEB JL for advanced features and free or discounted
-                courses. With our support, you’ll gain access to expert
-                guidance, sports assistance, and production-level project source
-                code. Whether you’re planning for college, searching for
-                internships, or launching your career, WEB JL has you covered.
-                Get started today!
-              </p>
-            </div>
+            {!user ? (
+              <div className="flex text-center items-center justify-center ">
+                <p className=" w-80  text-sm mt-5 mb-5 text-white">
+                  Join WEB JL for advanced features and free or discounted
+                  courses. With our support, you’ll gain access to expert
+                  guidance, sports assistance, and production-level project
+                  source code. Whether you’re planning for college, searching
+                  for internships, or launching your career, WEB JL has you
+                  covered. Get started today!
+                </p>
+              </div>
+            ) : (
+              <div className="flex text-center items-center justify-center ">
+                <p className=" w-80  text-sm mt-5 mb-5 text-white">
+                  web-jl-official” is an educational platform created by Livesh
+                  Kumar Garg. It offers language notes, short and long projects
+                  for revision, and various types of code. Whether you’re a
+                  beginner or an experienced developer, you can explore this
+                  resource-rich website at webjl.web.app. 🌐📚👨‍💻
+                </p>
+              </div>
+            )}
 
             {user ? (
               <a href="/prumium_cources">

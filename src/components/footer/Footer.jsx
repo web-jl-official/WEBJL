@@ -107,7 +107,7 @@ function Footer() {
                 className="   text-white ml-1  hover:text-cyan-400"
                 target="_blank"
               >
-                @https://web-jl.web.app/
+                @https://webjl.web.app/
               </a>
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">

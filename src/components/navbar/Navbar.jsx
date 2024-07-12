@@ -79,14 +79,14 @@ function Navbar() {
                   </button>
                 </div>
                 <div className=" block center space-y-6 border-t border-gray-200 px-4 py-6 ">
-                  <div>
+                  {/* <div>
                     <Link
                       to={"/allproducts"}
                       className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
                     >
                       Free Courses
                     </Link>
-                  </div>
+                  </div> */}
                   {user ? (
                     <div>
                       <Link
@@ -251,12 +251,12 @@ function Navbar() {
                   Home
                 </Link>
                 <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
-                  <Link
+                  {/* <Link
                     to={"/allproducts"}
                     className="text-sm font-medium text-white  hover:text-cyan-400 "
                   >
                     Free Courses
-                  </Link>
+                  </Link> */}
 
                   <Link
                     to={"/prumium_cources"}

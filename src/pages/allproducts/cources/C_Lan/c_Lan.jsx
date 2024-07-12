@@ -22,6 +22,25 @@ export default function c_Lan() {
           <div className="flex flex-wrap -m-4">
             {/* anker tag using link for page */}
             <div className="xl:w-1/4 md:w-1/2 p-4">
+              <a href="https://youtu.be/aZb0iu4uGwA?si=i4mmOfswcDHEalSz">
+                <div
+                  style={{ height: "180px", width: "280px" }}
+                  className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
+                >
+                  <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
+                    C Language
+                  </h3>
+                  <h2 className="text-lg text-white font-medium title-font mb-4">
+                    C Video Leacture in Hindi
+                  </h2>
+                  <p className="leading-relaxed text-base">
+                    This Leacture Created By "Code_with_Herry"
+                  </p>
+                </div>
+              </a>
+            </div>
+            {/* anker tag using link for page */}
+            <div className="xl:w-1/4 md:w-1/2 p-4">
               <a href="https://1drv.ms/u/s!Al4ms1EwsO8BgZYaxjouebkphmQ5sw?e=I2Kqbw">
                 <div
                   style={{ height: "180px", width: "280px" }}

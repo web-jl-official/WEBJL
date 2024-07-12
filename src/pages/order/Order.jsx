@@ -21,13 +21,13 @@ function Order() {
       {loading && <Loader />}
       {order.length >= 1 ? (
         <>
-          <div className=" h-full pt-10">
+          <div className="block w-full h-full pt-10">
             {order
               .filter((obj) => obj.userid == userid)
               .map((order) => {
                 // order.cartItems.map()
                 return (
-                  <div className="mx-auto max-w-5xl justify-center px-6 md:flex md:space-x-6 xl:px-0">
+                  <div className="flex flex-wrap justify-center">
                     {order.cartItems.map((item) => {
                       return (
                         <div className="rounded-lg md:w-2/3">

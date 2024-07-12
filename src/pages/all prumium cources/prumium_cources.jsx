@@ -47,21 +47,12 @@ export default function prumium_cources() {
                 const { title, price, description, imageUrl, id } = item;
                 return (
                   <>
-                    <div>
-                      <div className="flex flex-wrap m-4 justify-evenly">
-                        <div
-                          onClick={() =>
-                            (window.location.href = `/productinfo/${id}`)
-                          }
-                          key={index}       
-                        >
+                    <div className="block m-auto items-center mt-4 mb-4">
+                      <div className="flex w-64  justify-evenly">
+                        <div className="" key={index}>
                           <img
                             alt="ecommerce"
-                            className="object-center w-full h-48 block bg-black object-fill"
-                            style={{
-                              backgroundColor: "#181818",
-                              width: "fit-content",
-                            }}
+                            className="object-center h-48 bg-black object-fill w-full border-4 border-cyan-400 rounded-xl"
                             src={imageUrl}
                           />
                           <div className="mt-4">
@@ -72,15 +63,24 @@ export default function prumium_cources() {
                               {title}
                             </h2>
                             <p className="mt-1 text-white">₹{price}</p>
-                            <div className=" flex justify-center mt-2">
-                              <button
-                                type="button"
-                                onClick={() => addCart(item)}
-                                className="focus:outline-none text-white bg-pink-600 hover:bg-pink-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2"
-                              >
-                                Add To Cart
-                              </button>
-                            </div>
+                          </div>
+                          <div className=" flex justify-center  mt-2">
+                            <button
+                              type="button"
+                              onClick={() => addCart(item)}
+                              className="focus:outline-none m-2 text-black bg-cyan-400 hover:bg-violet-500 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2"
+                            >
+                              Add To Cart
+                            </button>
+                            <button
+                              type="button"
+                              onClick={() =>
+                                (window.location.href = `/productinfo/${id}`)
+                              }
+                              className="focus:outline-none m-2 text-black bg-cyan-400 hover:bg-violet-500 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2"
+                            >
+                              Product Details
+                            </button>
                           </div>
                         </div>
                       </div>

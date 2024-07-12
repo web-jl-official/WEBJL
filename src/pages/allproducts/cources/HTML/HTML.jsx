@@ -23,6 +23,25 @@ export default function HTML() {
             <div className="flex flex-wrap -m-4">
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
+                <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w">
+                  <div
+                    style={{ height: "180px", width: "280px" }}
+                    className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
+                  >
+                    <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
+                      Web Developing
+                    </h3>
+                    <h2 className="text-lg text-white font-medium title-font mb-4">
+                      HTML, CSS, JS Video Leacture in Hindi - Palylist
+                    </h2>
+                    <p className="leading-relaxed text-base">
+                      This Leacture Created By "Code_With_Herry"
+                    </p>
+                  </div>
+                </a>
+              </div>
+              {/* anker tag using link for page */}
+              <div className="xl:w-1/4 md:w-1/2 p-4">
                 <a href="https://1drv.ms/u/s!Al4ms1EwsO8BgZYZyB4UQu_2nbgVuA?e=yx3erX">
                   <div
                     style={{ height: "180px", width: "280px" }}
@@ -113,25 +132,6 @@ export default function HTML() {
                   </div>
                 </a>
               </div>
-              {/* anker tag using link for page */}
-              {/* <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="/texttospeech">
-                  <div
-                    style="height: 180px;width: 280px;"
-                    className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
-                  >
-                    <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
-                      Web Developing
-                    </h3>
-                    <h2 className="text-lg text-white font-medium title-font mb-4">
-                      TEXT TO SPEECH
-                    </h2>
-                    <p className="leading-relaxed text-base">
-                      Using HTML, CSS and JS
-                    </p>
-                  </div>
-                </a>
-              </div> */}
             </div>
           </section>
         </div>

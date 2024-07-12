@@ -17,15 +17,15 @@ const Js_cource = () => {
             >
               JS Programing Code
             </h1>
-            <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
+            {/* <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
               Code Copy From Chai aur Code
-            </p>
+            </p> */}
           </div>
           <section className="text-gray-400 body-font bg-gray-900">
             <div className="flex flex-wrap -m-4">
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="/Js_Code">
+                <a href="https://youtu.be/sscX432bMZo?si=KzqXKhiyb06BzpQm">
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -34,17 +34,17 @@ const Js_cource = () => {
                       JS Developing
                     </h3>
                     <h2 className="text-lg text-white font-medium title-font mb-4">
-                      JS Developing Codes
+                      JS Video Leacture in Hindi - Part 1
                     </h2>
                     <p className="leading-relaxed text-base">
-                      Chaper Sequence
+                      This Leacture Created By "Chai_or_Code"
                     </p>
                   </div>
                 </a>
               </div>
               {/* anker tag using link for page */}
-              {/* <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="/Js_02_basic">
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <a href="https://youtu.be/_TjtAyMkiTI?si=p9Xf_-FxYFKdRlwR">
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -53,15 +53,17 @@ const Js_cource = () => {
                       JS Developing
                     </h3>
                     <h2 className="text-lg text-white font-medium title-font mb-4">
-                      02.Basics
+                      JS Video Leacture in Hindi - Part 2
                     </h2>
-                    <p className="leading-relaxed text-base"></p>
+                    <p className="leading-relaxed text-base">
+                      This Leacture Created By "Chai_or_Code"
+                    </p>
                   </div>
                 </a>
-              </div> */}
+              </div>
               {/* anker tag using link for page */}
-              {/* <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="">
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <a href="https://www.youtube.com/playlist?list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW">
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -70,46 +72,14 @@ const Js_cource = () => {
                       JS Developing
                     </h3>
                     <h2 className="text-lg text-white font-medium title-font mb-4">
-                      03.Basics
+                      JS Backend Video Leacture in Hindi - Palylist
                     </h2>
-                    <p className="leading-relaxed text-base"></p>
+                    <p className="leading-relaxed text-base">
+                      This Leacture Created By "Chai_or_Code"
+                    </p>
                   </div>
                 </a>
-              </div> */}
-              {/* anker tag using link for page */}
-              {/* <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="/HTML_shorting">
-                  <div
-                    style={{ height: "180px", width: "280px" }}
-                    className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
-                  >
-                    <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
-                      JS Developing
-                    </h3>
-                    <h2 className="text-lg text-white font-medium title-font mb-4">
-                      Coming soon
-                    </h2>
-                    <p className="leading-relaxed text-base"></p>
-                  </div>
-                </a>
-              </div> */}
-               {/* anker tag using link for page */}
-              {/* <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="">
-                  <div
-                    style={{ height: "180px", width: "280px" }}
-                    className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
-                  >
-                    <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
-                      JS Developing
-                    </h3>
-                    <h2 className="text-lg text-white font-medium title-font mb-4">
-                      Coming soon
-                    </h2>
-                    <p className="leading-relaxed text-base"></p>
-                  </div>
-                </a>
-              </div> */}
+              </div>
             </div>
           </section>
         </div>

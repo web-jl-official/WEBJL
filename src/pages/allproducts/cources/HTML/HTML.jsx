@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../../../components/layout/Layout";
-
+import { Link } from "react-router-dom";
 export default function HTML() {
   return (
     <Layout>
@@ -23,7 +23,7 @@ export default function HTML() {
             <div className="flex flex-wrap -m-4">
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w">
+                <Link to="https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w">
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -38,11 +38,11 @@ export default function HTML() {
                       This Leacture Created By "Code_With_Herry"
                     </p>
                   </div>
-                </a>
+                </Link>
               </div>
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="https://1drv.ms/u/s!Al4ms1EwsO8BgZYZyB4UQu_2nbgVuA?e=yx3erX">
+                <Link to="https://1drv.ms/u/s!Al4ms1EwsO8BgZYZyB4UQu_2nbgVuA?e=yx3erX">
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -55,11 +55,11 @@ export default function HTML() {
                     </h2>
                     <p className="leading-relaxed text-base">HTML, CSS</p>
                   </div>
-                </a>
+                </Link>
               </div>
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="/HTML_Calculater">
+                <Link to="/HTML_Calculater">
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -74,11 +74,11 @@ export default function HTML() {
                       The calculater make with html, css &amp; js
                     </p>
                   </div>
-                </a>
+                </Link>
               </div>
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="/HTML_Number_System">
+                <Link to="/HTML_Number_System">
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -93,11 +93,11 @@ export default function HTML() {
                       The Number system make with html, css &amp; js
                     </p>
                   </div>
-                </a>
+                </Link>
               </div>
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="/HTML_shorting">
+                <Link to="/HTML_shorting">
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -112,10 +112,10 @@ export default function HTML() {
                       Using HTML, CSS &amp; JS
                     </p>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="/texttospeech">
+                <Link to="/texttospeech">
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -130,7 +130,7 @@ export default function HTML() {
                       Using HTML, CSS and JS
                     </p>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </section>

@@ -1,5 +1,7 @@
 import React from 'react'
 import Layout from '../../../../components/layout/Layout'
+import { Link } from 'react-router-dom';
+
 
 export default function Reactpro() {
   return (
@@ -22,7 +24,7 @@ export default function Reactpro() {
             <div className="flex flex-wrap -m-4">
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="https://www.youtube.com/playlist?list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige">
+                <Link to="https://www.youtube.com/playlist?list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige">
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -37,11 +39,11 @@ export default function Reactpro() {
                       This Leacture Created By "Chai_or_Code"
                     </p>
                   </div>
-                </a>
+                </Link>
               </div>
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="/Project_React">
+                <Link to="/Project_React">
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -56,11 +58,11 @@ export default function Reactpro() {
                       Our Ecommers Website Copy And Make Own Websiyte
                     </p>
                   </div>
-                </a>
+                </Link>
               </div>
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="/Learn_React">
+                <Link to="/Learn_React">
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -75,7 +77,7 @@ export default function Reactpro() {
                       in Few Steps How To Mack React Websitte
                     </p>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </section>

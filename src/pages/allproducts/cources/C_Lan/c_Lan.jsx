@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../../../../components/layout/Layout";
+import { Link } from "react-router-dom";
 
 export default function c_Lan() {
   return (
@@ -41,7 +42,7 @@ export default function c_Lan() {
             </div>
             {/* anker tag using link for page */}
             <div className="xl:w-1/4 md:w-1/2 p-4">
-              <a href="https://1drv.ms/u/s!Al4ms1EwsO8BgZYaxjouebkphmQ5sw?e=I2Kqbw">
+              <Link to={"https://1drv.ms/u/s!Al4ms1EwsO8BgZYaxjouebkphmQ5sw?e=I2Kqbw"}>
                 <div
                   style={{ height: "180px", width: "280px" }}
                   className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -57,11 +58,11 @@ export default function c_Lan() {
                     C Language Nots with all chapter and problem solution.
                   </p>
                 </div>
-              </a>
+              </Link>
             </div>
             {/* anker tag using link for page */}
             <div className="xl:w-1/4 md:w-1/2 p-4">
-              <a href="/C_Game">
+              <Link to={"/C_Game"}>
                 <div
                   style={{ height: "180px", width: "280px" }}
                   className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -77,11 +78,11 @@ export default function c_Lan() {
                     number{" "}
                   </p>
                 </div>
-              </a>
+              </Link>
             </div>
             {/* anker tag using link for page */}
             <div className="xl:w-1/4 md:w-1/2 p-4">
-              <a href="/C_Multifunction">
+              <Link to={"/C_Multifunction"}>
                 <div
                   style={{ height: "180px", width: "280px" }}
                   className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -97,7 +98,7 @@ export default function c_Lan() {
                     &amp; without loop
                   </p>
                 </div>
-              </a>
+              </Link>
             </div>
             {/* anker tag using link for page */}
             {/* <div className="xl:w-1/4 md:w-1/2 p-4">

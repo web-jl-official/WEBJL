@@ -70,38 +70,33 @@ function Login() {
           <div className=" flex justify-center mb-3">
             <button
               onClick={login}
-              className=" bg-yellow-500 w-full text-black font-bold  px-2 py-2 rounded-lg"
+              className=" bg-cyan-400 hover:bg-violet-500 w-full text-black font-bold  px-2 py-2 rounded-lg"
             >
               Login
             </button>
           </div>
           <div>
-            <h2 className="text-white">
-              Don't have an account{" "}
-              <Link className=" text-yellow-500 font-bold" to={"/signup"}>
+            <Link to={"/signup"}>
+              <button
+                onClick={login}
+                className=" bg-cyan-400 hover:bg-violet-500 w-full text-black font-bold  px-2 py-2 rounded-lg"
+              >
                 Signup
-              </Link>
-            </h2>
+              </button>
+            </Link>
           </div>
-          <div>
-            <h2 className="text-white">
-              Forgot Password{" "}
+          <div className='flex justify-between mt-8'>
               <Link
                 className=" text-yellow-500 font-bold"
                 to={"/resetpassword"}
               >
-                Reset{" "}
+                Reset Password
               </Link>
-            </h2>
-          </div>
-          <div>
-            <h2 className="text-white">
-              Go to Home Page{" "}
               <Link className=" text-yellow-500 font-bold" to={"/"}>
                 Home Page{" "}
               </Link>
-            </h2>
           </div>
+          
         </div>
       </div>
     );

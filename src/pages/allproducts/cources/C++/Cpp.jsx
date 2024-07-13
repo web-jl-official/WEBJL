@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../../../../components/layout/Layout'
+import { Link } from "react-router-dom";
 
 export default function Cpp() {
   return (
@@ -47,7 +48,7 @@ export default function Cpp() {
               </div>
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="/Cpp_Factorial">
+                <Link to={"/Cpp_Factorial"}>
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -62,11 +63,11 @@ export default function Cpp() {
                       Factorial without Recursion &amp; With Recursion Program
                     </p>
                   </div>
-                </a>
+                </Link>
               </div>
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="/Cpp_Bank_Acoount">
+                <Link to={"/Cpp_Bank_Acoount"}>
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -81,7 +82,7 @@ export default function Cpp() {
                       Mack ATM Software with class{" "}
                     </p>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </section>

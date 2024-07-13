@@ -60,34 +60,25 @@ const Resetpassword = () => {
           <div className=" flex justify-center mb-3">
             <button
               onClick={login}
-              className=" bg-yellow-500 w-full text-black font-bold  px-2 py-2 rounded-lg"
+              className=" bg-cyan-400 hover:bg-violet-500 w-full text-black font-bold  px-2 py-2 rounded-lg"
             >
               Reset Password
             </button>
           </div>
           <div>
-            <h2 className="text-white">
-              Don't have an account{" "}
-              <Link className=" text-yellow-500 font-bold" to={"/signup"}>
-                Signup
-              </Link>
-            </h2>
-          </div>
-          <div>
-            <h2 className="text-white">
-              You have an account
-              <Link className=" text-yellow-500 font-bold" to={"/login"}>
+            <Link to={"/login"}>
+              <button className=" bg-cyan-400 hover:bg-violet-500 w-full text-black font-bold  px-2 py-2 rounded-lg">
                 Login
-              </Link>
-            </h2>
+              </button>
+            </Link>
           </div>
-          <div>
-            <h2 className="text-white">
-              Go to Home Page{" "}
-              <Link className=" text-yellow-500 font-bold" to={"/="}>
-                Home Page{" "}
-              </Link>
-            </h2>
+          <div className="flex justify-between mt-8">
+            <Link className=" text-yellow-500 font-bold" to={"/signup"}>
+              Signup
+            </Link>
+            <Link className=" text-yellow-500 font-bold" to={"/"}>
+              Home Page{" "}
+            </Link>
           </div>
         </div>
       </div>

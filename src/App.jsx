@@ -53,10 +53,7 @@ import Shorting from './pages/allproducts/cources/HTML/Files/Shorting';
 import HTML from './pages/allproducts/cources/HTML/HTML';
 import HTML_PROJECT_COURCE from './pages/allproducts/cources/HTML/Cources/HTML_PROJECT_COURCE';
 import EASY_HTML from './pages/allproducts/cources/HTML/Cources/EASY_HTML';
-import JsCodes from './pages/allproducts/cources/HTML/js/Codes/Js_Codes';
 import Js_cource from './pages/allproducts/cources/HTML/js/js';
-import Js_01_basic from './pages/allproducts/cources/HTML/js/Codes/01_basics/01_basic';
-import Js_02_basic from './pages/allproducts/cources/HTML/js/Codes/02_basicd/02_basic'
 import TextToSpeech from "./pages/allproducts/cources/HTML/Files/TextToSpeech";
 
 
@@ -81,6 +78,7 @@ import WEB_DEVLOPMENT from './pages/all prumium cources/cources/WEB_DEVLOPMENT';
 
 import Birthday from './pages/Birthday/Birthday';
 import Github from './pages/all prumium cources/cources/Github';
+import Profile from './pages/Profile/Profile';
 
 
 
@@ -100,6 +98,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="/allproducts" element={<Allproducts />} />
           <Route path="/productinfo/:id" element={<ProductInfo />} />
           <Route path="/prumium_cources" element={<Prumium_cources />} />
@@ -170,11 +169,8 @@ function App() {
           <Route path="/HTML_Number_System" element={<Number_System />} />
           <Route path="/HTML_shorting" element={<Shorting />} />
           <Route path="/WEB_DEVLOPMENT_COURCE" element={<WEB_DEVLOPMENT />} />
-          <Route path="/Easy_HTML" element={<EASY_HTML />} />
-          <Route path="/Js_Code" element={<JsCodes />} />
+          <Route path="/Easy_HTML" element={<EASY_HTML />} />         
           <Route path="/Js_cource" element={<Js_cource />} />
-          <Route path="/Js_01_basic" element={<Js_01_basic />} />
-          <Route path="/Js_02_basic" element={<Js_02_basic />} />
           <Route path="/texttospeech" element={<TextToSpeech />} />
 
           <Route path="/Birthday" element={<Birthday />} />

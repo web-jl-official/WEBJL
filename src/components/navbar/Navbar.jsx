@@ -66,27 +66,29 @@ function Navbar() {
               leaveTo="-translate-x-full"
             >
               <Dialog.Panel className="relative flex w-full max-w-xs flex-col overflow-y-auto bg-gray-700 pb-12 shadow-xl">
-                <div className="flex px-4 pb-2 pt-28">
+                <div className="flex px-4 pb-2 pt-28 ">
                   <button
                     type="button"
-                    className="-m-2 inline-flex items-center justify-center rounded-md p-2    text-white"
+                    className="hover:text-cyan-400 -m-2 inline-flex items-center justify-center rounded-md p-2    text-white bg-black mb-2"
                     onClick={() => setOpen(false)}
                   >
-                    <span className="sr-only text-white ml-1  hover:text-cyan-400">
-                      Close menu
+                    <span className=" text-white ml-1 hover:text-cyan-400 ">
+                      X Close Menu
                     </span>
-                    <RxCross2 />
                   </button>
                 </div>
                 <div className=" block center space-y-6 border-t border-gray-200 px-4 py-6 ">
-                  {/* <div>
-                    <Link
-                      to={"/allproducts"}
-                      className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
-                    >
-                      Free Courses
-                    </Link>
-                  </div> */}
+                  
+                    <div>
+                      <Link
+                        to={user ? "/profile" : "/login"}
+                        className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
+                      >
+                        Account
+                      </Link>
+                    </div>
+                  
+
                   {user ? (
                     <div>
                       <Link
@@ -103,7 +105,7 @@ function Navbar() {
                   <div>
                     <Link
                       to={"/prumium_cources"}
-                      className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
+                      className="text-sm font-medium    text-white   hover:text-cyan-400 "
                     >
                       Premium Courses
                     </Link>
@@ -113,7 +115,7 @@ function Navbar() {
                     {user?.user?.email === "lgteamworkofficial@gmail.com" ? (
                       <Link
                         to={"/dashboard"}
-                        className="text-sm font-medium text-white ml-1  hover:text-cyan-400 "
+                        className="text-sm font-medium text-white   hover:text-cyan-400 "
                       >
                         Admin
                       </Link>
@@ -125,7 +127,7 @@ function Navbar() {
                   <div>
                     <Link
                       to={"/About"}
-                      className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
+                      className="text-sm font-medium    text-white   hover:text-cyan-400 "
                     >
                       About
                     </Link>
@@ -133,7 +135,7 @@ function Navbar() {
                   <div>
                     <Link
                       to={"/ContactUs"}
-                      className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
+                      className="text-sm font-medium    text-white  hover:text-cyan-400 "
                     >
                       Contact Us
                     </Link>
@@ -141,7 +143,7 @@ function Navbar() {
                   <div>
                     <Link
                       to={"/Privacy"}
-                      className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
+                      className="text-sm font-medium    text-white  hover:text-cyan-400 "
                     >
                       Privacy
                     </Link>
@@ -159,40 +161,13 @@ function Navbar() {
                     <div className="flow-root">
                       <Link
                         to={"/signup"}
-                        className="-m-2 block p-2 font-medium    text-white ml-1  hover:text-cyan-400 cursor-pointer"
+                        className="-m-2 block p-2 font-medium    text-white   hover:text-cyan-400 cursor-pointer"
                       >
                         Signup
                       </Link>
                     </div>
                   )}
                 </div>
-                {user ? (
-                  <div className="border-t border-gray-200 px-4 py-6">
-                    <div className=" bg-gray-900 rounded p-2">
-                      <Link
-                        to={"#"}
-                        className="flex items-center    text-white "
-                      >
-                        <span className="ml-3 mr-3 block text-sm font-medium   text-cyan-400">
-                          Account <br /> {UserName}
-                        </span>
-                      </Link>
-                    </div>
-                  </div>
-                ) : (
-                  <div className="border-t border-gray-200 px-4 py-6">
-                    <div className=" bg-gray-900 rounded p-2">
-                      <Link
-                        to={"#"}
-                        className="flex items-center    text-white "
-                      >
-                        <span className="ml-3 mr-3 block text-sm font-medium text-cyan-400">
-                          No Account
-                        </span>
-                      </Link>
-                    </div>
-                  </div>
-                )}
               </Dialog.Panel>
             </Transition.Child>
           </div>
@@ -251,12 +226,12 @@ function Navbar() {
                   Home
                 </Link>
                 <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
-                  {/* <Link
-                    to={"/allproducts"}
+                  <Link
+                    to={user ? "/profile" : "/login"}
                     className="text-sm font-medium text-white  hover:text-cyan-400 "
                   >
-                    Free Courses
-                  </Link> */}
+                    Account
+                  </Link>
 
                   <Link
                     to={"/prumium_cources"}
@@ -264,8 +239,6 @@ function Navbar() {
                   >
                     Premium Courses
                   </Link>
-
-              
 
                   {user ? (
                     <Link

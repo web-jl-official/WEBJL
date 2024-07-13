@@ -1,5 +1,7 @@
 import React from 'react'
 import Layout from '../../../../components/layout/Layout'
+import { Link } from 'react-router-dom';
+
 
 export default function Python() {
   return (
@@ -22,7 +24,7 @@ export default function Python() {
             <div className="flex flex-wrap -m-4">
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="https://youtu.be/UrsmFxEIp5k?si=1W1hpQoymaPjGe1m">
+                <Link to="https://youtu.be/UrsmFxEIp5k?si=1W1hpQoymaPjGe1m">
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -37,11 +39,11 @@ export default function Python() {
                       This Leacture Created By "Code_with_Herry"
                     </p>
                   </div>
-                </a>
+                </Link>
               </div>
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="/Py_Calendar">
+                <Link to="/Py_Calendar">
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -56,11 +58,11 @@ export default function Python() {
                       Using Calendar Library
                     </p>
                   </div>
-                </a>
+                </Link>
               </div>
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="https://1drv.ms/f/s!Al4ms1EwsO8BgZYiUWURuwYvaVP1Ow?e=ohDtX2">
+                <Link to="https://1drv.ms/f/s!Al4ms1EwsO8BgZYiUWURuwYvaVP1Ow?e=ohDtX2">
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -75,11 +77,11 @@ export default function Python() {
                       All Notes OF Python with chepter wise from code_with_herry
                     </p>
                   </div>
-                </a>
+                </Link>
               </div>
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="/Py_Loop">
+                <Link to="/Py_Loop">
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -94,11 +96,11 @@ export default function Python() {
                       Python Loop Message in any website and app
                     </p>
                   </div>
-                </a>
+                </Link>
               </div>
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <a href="/Py_QrCode">
+                <Link to="/Py_QrCode">
                   <div
                     style={{ height: "180px", width: "280px" }}
                     className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -113,7 +115,7 @@ export default function Python() {
                       Qr Code Generater Upi, Data, link, upi Amount Software etc
                     </p>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </section>

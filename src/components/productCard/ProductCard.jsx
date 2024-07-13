@@ -36,7 +36,7 @@ const user = JSON.parse(localStorage.getItem("user"));
             Our Register Collection
           </h1>
         </div>
-        <div className=" flex overflow-x-auto  scroll-smooth m-4 sm:flex sm:flex-wrap justify-evenly text-left items-center ">
+        <div className=" flex overflow-x-auto  scroll-smooth m-4 sm:flex-wrap justify-evenly text-left items-center ">
           {product
             .filter((obj) => obj.title.toLowerCase().includes(searchkey))
             .filter((obj) => obj.category.toLowerCase().includes(filterType))

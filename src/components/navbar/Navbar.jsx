@@ -102,6 +102,14 @@ function Navbar() {
 
                   <div>
                     <Link
+                      to={"/allproducts"}
+                      className="text-sm font-medium    text-white   hover:text-cyan-400 "
+                    >
+                      Free Courses
+                    </Link>
+                  </div>
+                  <div>
+                    <Link
                       to={"/prumium_cources"}
                       className="text-sm font-medium    text-white   hover:text-cyan-400 "
                     >
@@ -229,6 +237,13 @@ function Navbar() {
                     className="text-sm font-medium text-white  hover:text-cyan-400 "
                   >
                     Account
+                  </Link>
+
+                  <Link
+                    to={"/allproducts"}
+                    className="text-sm font-medium    text-white  hover:text-cyan-400"
+                  >
+                    Free Courses
                   </Link>
 
                   <Link

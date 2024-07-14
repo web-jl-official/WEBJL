@@ -43,6 +43,25 @@ export default function Python() {
               </div>
               {/* anker tag using link for page */}
               <div className="xl:w-1/4 md:w-1/2 p-4">
+                <Link to="https://www.youtube.com/playlist?list=PLu71SKxNbfoBsMugTFALhdLlZ5VOqCg2s">
+                  <div
+                    style={{ height: "180px", width: "280px" }}
+                    className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
+                  >
+                    <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
+                      Python Language
+                    </h3>
+                    <h2 className="text-lg text-white font-medium title-font mb-4">
+                      Python Video Leacture in Hindi
+                    </h2>
+                    <p className="leading-relaxed text-base">
+                      This Leacture Created By "Chai_or_Code"
+                    </p>
+                  </div>
+                </Link>
+              </div>
+              {/* anker tag using link for page */}
+              <div className="xl:w-1/4 md:w-1/2 p-4">
                 <Link to="/Py_Calendar">
                   <div
                     style={{ height: "180px", width: "280px" }}

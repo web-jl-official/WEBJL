@@ -25,6 +25,9 @@ import Cart from './pages/cart/Cart';
 import ProductInfo from './pages/productInfo/ProductInfo';
 import AddProduct from './pages/admin/page/AddProduct';
 import UpdateProduct from './pages/admin/page/UpdateProduct';
+import Profile from "./pages/Profile/Profile";
+import Test from "./pages/Test/Test";
+
 
 
 
@@ -78,7 +81,7 @@ import WEB_DEVLOPMENT from './pages/all prumium cources/cources/WEB_DEVLOPMENT';
 
 import Birthday from './pages/Birthday/Birthday';
 import Github from './pages/all prumium cources/cources/Github';
-import Profile from './pages/Profile/Profile';
+
 
 
 
@@ -98,6 +101,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/OnlineTest" element={<Test/>} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/allproducts" element={<Allproducts />} />
           <Route path="/productinfo/:id" element={<ProductInfo />} />
@@ -169,7 +173,7 @@ function App() {
           <Route path="/HTML_Number_System" element={<Number_System />} />
           <Route path="/HTML_shorting" element={<Shorting />} />
           <Route path="/WEB_DEVLOPMENT_COURCE" element={<WEB_DEVLOPMENT />} />
-          <Route path="/Easy_HTML" element={<EASY_HTML />} />         
+          <Route path="/Easy_HTML" element={<EASY_HTML />} />
           <Route path="/Js_cource" element={<Js_cource />} />
           <Route path="/texttospeech" element={<TextToSpeech />} />
 

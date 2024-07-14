@@ -78,16 +78,14 @@ function Navbar() {
                   </button>
                 </div>
                 <div className=" block center space-y-6 border-t border-gray-200 px-4 py-6 ">
-                  
-                    <div>
-                      <Link
-                        to={user ? "/profile" : "/login"}
-                        className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
-                      >
-                        Account
-                      </Link>
-                    </div>
-                  
+                  <div>
+                    <Link
+                      to={user ? "/profile" : "/login"}
+                      className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
+                    >
+                      Account
+                    </Link>
+                  </div>
 
                   {user ? (
                     <div>
@@ -246,6 +244,17 @@ function Navbar() {
                       className="text-sm font-medium    text-white  hover:text-cyan-400 "
                     >
                       Order
+                    </Link>
+                  ) : (
+                    ""
+                  )}
+
+                  {user ? (
+                    <Link
+                      to={"/OnlineTest"}
+                      className="text-sm font-medium    text-white  hover:text-cyan-400 "
+                    >
+                      Online Test
                     </Link>
                   ) : (
                     ""

@@ -2,6 +2,8 @@
 
 Welcome to the WEB_JL repository! This project is dedicated to providing educational content related to programming languages, notes, projects, and video lectures.
 
+<img src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/WEB-JL.png?alt=media&token=a708875b-0b10-4075-8103-dd69ad389f25" alt="My Image" >
+
 ## Table of Contents
 
 - Installation

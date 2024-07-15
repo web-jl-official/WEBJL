@@ -71,7 +71,7 @@ function Footer() {
               <nav className="list-none mb-10">
                 <li>
                   <a
-                    href="https://1drv.ms/u/s!Al4ms1EwsO8BgZYdA4OT09CNLYnAbA?e=HDj5RF"
+                    href="https://drive.google.com/file/d/1G1kFiEG8PmsBXpXOFd3Nu3XZ89yR1U7E/view?usp=drive_link"
                     className="text-white ml-1  hover:text-cyan-400"
                   >
                     Windows App

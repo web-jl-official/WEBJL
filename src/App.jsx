@@ -81,6 +81,7 @@ import WEB_DEVLOPMENT from './pages/all prumium cources/cources/WEB_DEVLOPMENT';
 
 import Birthday from './pages/Birthday/Birthday';
 import Github from './pages/all prumium cources/cources/Github';
+import NewIntership from './pages/New intership/NewIntership';
 
 
 
@@ -101,7 +102,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/OnlineTest" element={<Test/>} />
+          <Route path="/OnlineTest" element={<Test />} />
+          <Route path="/NewUpdate" element={<NewIntership />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/allproducts" element={<Allproducts />} />
           <Route path="/productinfo/:id" element={<ProductInfo />} />

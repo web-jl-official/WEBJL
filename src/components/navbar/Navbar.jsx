@@ -86,6 +86,14 @@ function Navbar() {
                       Account
                     </Link>
                   </div>
+                  <div>
+                    <Link
+                      to={user ? "/NewUpdate" : "/login"}
+                      className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
+                    >
+                      Intership
+                    </Link>
+                  </div>
 
                   {user ? (
                     <div>
@@ -237,6 +245,12 @@ function Navbar() {
                     className="text-sm font-medium text-white  hover:text-cyan-400 "
                   >
                     Account
+                  </Link>
+                  <Link
+                    to={user ? "/NewUpdate" : "/login"}
+                    className="text-sm font-medium text-white  hover:text-cyan-400 "
+                  >
+                    Intership
                   </Link>
 
                   <Link

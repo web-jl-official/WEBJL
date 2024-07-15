@@ -47,7 +47,7 @@ export default function prumium_cources() {
                 const { title, price, description, imageUrl, id } = item;
                 return (
                   <>
-                    <div className="block m-auto items-center mt-4 mb-4">
+                    <div className="block mt-4 mb-4">
                       <div className="flex w-64  justify-evenly">
                         <div className="" key={index}>
                           <img

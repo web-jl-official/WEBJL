@@ -1,10 +1,12 @@
 import React, { useContext } from 'react'
 import myContext from '../../context/data/myContext'
+import Layout from '../layout/Layout';
 
 function Testimonial() {
     const context = useContext(myContext);
     const { mode } = context;
-    return (
+  return (
+    <Layout>
       <div>
         <section className="bg-gray-900">
           <div className=" container mx-auto px-5 py-10">
@@ -108,21 +110,26 @@ function Testimonial() {
             </div>
           </div>
         </section>
-        {/* <section className="text-gray-600 body-font">
+        <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
+            <center className="text-4xl mb-2 text-cyan-400">
+              <h1>WEB JL Contributions</h1>
+            </center>
             <div className="flex flex-wrap -m-2">
               <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                 <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                   <img
                     alt="team"
-                    className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://dummyimage.com/80x80"
+                    className="border-white border-2 w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/DEVLOPERS%2FLIVESH.jpg?alt=media&token=256f6def-e18e-4770-91f9-41976395f544"
                   />
                   <div className="flex-grow">
                     <h2 className="text-white title-font font-medium">
-                      Rahul
+                      Livesh Garg
                     </h2>
-                    <p className="text-gray-500">Cource Designer</p>
+                    <p className="text-gray-400">
+                      CEO, Website Developer & Teacher
+                    </p>
                   </div>
                 </div>
               </div>
@@ -130,14 +137,14 @@ function Testimonial() {
                 <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                   <img
                     alt="team"
-                    className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://dummyimage.com/84x84"
+                    className="border-white border-2 w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/DEVLOPERS%2F20240601_191032(1).jpg?alt=media&token=945d0318-b89c-411d-8ea4-06085d288220"
                   />
                   <div className="flex-grow">
                     <h2 className="text-white title-font font-medium">
-                      Henry Letham
+                      Jatin Dua
                     </h2>
-                    <p className="text-gray-500">CTO</p>
+                    <p className="text-gray-400">Director & Teacher</p>
                   </div>
                 </div>
               </div>
@@ -145,14 +152,14 @@ function Testimonial() {
                 <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                   <img
                     alt="team"
-                    className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://dummyimage.com/88x88"
+                    className="border-white border-2 w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/DEVLOPERS%2FTushar.png?alt=media&token=ef869957-b96e-4314-a2c6-8cb0e68c2d46"
                   />
                   <div className="flex-grow">
                     <h2 className="text-white title-font font-medium">
-                      Oskar Blinde
+                      Tushar
                     </h2>
-                    <p className="text-gray-500">Founder</p>
+                    <p className="text-gray-400">Director & Cource Designer</p>
                   </div>
                 </div>
               </div>
@@ -160,14 +167,13 @@ function Testimonial() {
                 <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                   <img
                     alt="team"
-                    className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://dummyimage.com/80x80"
+                    className="border-white border-2 w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/JL%20TECH%20(1).png?alt=media&token=6390372c-5d90-41cc-8c25-495b15b9dd54"
                   />
                   <div className="flex-grow">
                     <h2 className="text-white title-font font-medium">
-                      Holden Caulfield
+                      Amarveer
                     </h2>
-                    <p className="text-gray-500">UI Designer</p>
                   </div>
                 </div>
               </div>
@@ -175,14 +181,11 @@ function Testimonial() {
                 <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                   <img
                     alt="team"
-                    className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://dummyimage.com/84x84"
+                    className="border-white border-2 w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/JL%20TECH%20(1).png?alt=media&token=6390372c-5d90-41cc-8c25-495b15b9dd54"
                   />
                   <div className="flex-grow">
-                    <h2 className="text-white title-font font-medium">
-                      Henry Letham
-                    </h2>
-                    <p className="text-gray-500">CTO</p>
+                    <h2 className="text-white title-font font-medium">Aseem</h2>
                   </div>
                 </div>
               </div>
@@ -190,22 +193,64 @@ function Testimonial() {
                 <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                   <img
                     alt="team"
-                    className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://dummyimage.com/88x88"
+                    className="border-white border-2 w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/JL%20TECH%20(1).png?alt=media&token=6390372c-5d90-41cc-8c25-495b15b9dd54"
                   />
                   <div className="flex-grow">
                     <h2 className="text-white title-font font-medium">
-                      Oskar Blinde
+                      Lakhpreet
                     </h2>
-                    <p className="text-gray-500">Founder</p>
+                  </div>
+                </div>
+              </div>
+              <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                  <img
+                    alt="team"
+                    className="border-white border-2 w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/JL%20TECH%20(1).png?alt=media&token=6390372c-5d90-41cc-8c25-495b15b9dd54"
+                  />
+                  <div className="flex-grow">
+                    <h2 className="text-white title-font font-medium">
+                      Khushi
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                  <img
+                    alt="team"
+                    className="border-white border-2 w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/JL%20TECH%20(1).png?alt=media&token=6390372c-5d90-41cc-8c25-495b15b9dd54"
+                  />
+                  <div className="flex-grow">
+                    <h2 className="text-white title-font font-medium">
+                      Mehak Preet
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                  <img
+                    alt="team"
+                    className="border-white border-2 w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/JL%20TECH%20(1).png?alt=media&token=6390372c-5d90-41cc-8c25-495b15b9dd54"
+                  />
+                  <div className="flex-grow">
+                    <h2 className="text-white title-font font-medium">
+                      Karan Jindal
+                    </h2>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
       </div>
-    );
+    </Layout>
+  );
 }
 
 export default Testimonial

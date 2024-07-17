@@ -87,8 +87,6 @@ const About = () => {
           </span>
         </p>
       </div>
-
-      <Testimonial />
     </Layout>
   );
 };

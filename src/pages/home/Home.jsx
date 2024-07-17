@@ -3,6 +3,7 @@ import Layout from "../../components/layout/Layout";
 import { Link } from "react-router-dom";
 import ProductCard2 from "../../components/productCard/ProductCard2";
 import HomeEntery from "../../components/productCard/HomeEntery";
+import HeroSection from "../../components/heroSection/HeroSection";
 
 function Home() {
 
@@ -10,14 +11,14 @@ function Home() {
   return (
     <Layout>
       <div className="w-full h-full bg-center bg-fixed bg-no-repeat bg-cover bg-gray-900">
-        <div className=" w-full h-screen flex justify-center text-center items-center">
-         <HomeEntery/>
+        <div>
+         <HeroSection/>
         </div>
 
         <div>
-          <ProductCard2/>
+          <ProductCard2 />
         </div>
-      
+
         <div className=" w-full flex justify-center text-center items-center text-2xl">
           <Link
             to={"/allproducts"}

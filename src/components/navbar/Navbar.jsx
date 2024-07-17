@@ -124,7 +124,14 @@ function Navbar() {
                       Premium Courses
                     </Link>
                   </div>
-
+                  <div>
+                    <Link
+                      to={user ? "/OnlineTest" : "/login"}
+                      className="text-sm font-medium    text-white   hover:text-cyan-400 "
+                    >
+                      Online Test
+                    </Link>
+                  </div>
                   <div>
                     {user?.user?.email === "lgteamworkofficial@gmail.com" ? (
                       <Link
@@ -372,17 +379,14 @@ function Navbar() {
                     ""
                   )}
 
-                  {user ? (
+                  
                     <Link
-                      to={"/OnlineTest"}
+                      to={user ? "/OnlineTest" : "/login"}
                       className="text-sm font-medium    text-white  hover:text-cyan-400 "
                     >
                       Online Test
-                    </Link>
-                  ) : (
-                    ""
-                  )}
-
+                  </Link>
+                  
                   {user?.user?.email === "lgteamworkofficial@gmail.com" ? (
                     <Link
                       to={"/dashboard"}

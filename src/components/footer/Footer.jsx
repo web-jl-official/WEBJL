@@ -11,7 +11,7 @@ function Footer() {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap md:text-left text-center order-first">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium    text-white tracking-widest text-sm mb-3">
+              <h2 className="title-font font-medium    text-violet-400 tracking-widest text-sm mb-3">
                 CATEGORIES
               </h2>
               <nav className="list-none mb-10">
@@ -20,21 +20,37 @@ function Footer() {
                 </li>
                 <li>
                   <a className="text-white ml-1  hover:text-cyan-400">
-                    Cources
+                    Free Cources
                   </a>
                 </li>
                 <li>
                   <a className="text-white ml-1  hover:text-cyan-400">
-                    Projects
+                    Internship
+                  </a>
+                </li>
+
+                <li>
+                  <a className="text-white ml-1  hover:text-cyan-400">
+                    Premium Courses
                   </a>
                 </li>
                 <li>
-                  <a className="text-white ml-1  hover:text-cyan-400">Free</a>
+                  <a className="text-white ml-1  hover:text-cyan-400">
+                    Online Test
+                  </a>
+                </li>
+                <li>
+                  <a className="text-white ml-1  hover:text-cyan-400">
+                    Account
+                  </a>
+                </li>
+                <li>
+                  <a className="text-white ml-1  hover:text-cyan-400">Order</a>
                 </li>
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium    text-white tracking-widest text-sm mb-3 uppercase">
+              <h2 className="title-font font-medium    text-violet-400 tracking-widest text-sm mb-3 uppercase">
                 Customer Service
               </h2>
               <nav className="list-none mb-10">
@@ -62,12 +78,21 @@ function Footer() {
                     Privacy
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    to={"/webJlmembers"}
+                    className="text-white ml-1  hover:text-cyan-400"
+                  >
+                    Members
+                  </Link>
+                </li>
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium    text-white tracking-widest text-sm mb-3">
-                Services
+              <h2 className="title-font font-medium    text-violet-400 tracking-widest text-sm mb-3">
+                SERVICES
               </h2>
+
               <nav className="list-none mb-10">
                 <li>
                   <a

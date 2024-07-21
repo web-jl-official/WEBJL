@@ -35,14 +35,18 @@ export default function c_Lan() {
                     C Video Leacture in Hindi
                   </h2>
                   <p className="leading-relaxed text-base">
-                    This Leacture Created By "Code_with_Herry"
+                    This Leacture Created By "Code_with_harry"
                   </p>
                 </div>
               </a>
             </div>
             {/* anker tag using link for page */}
             <div className="xl:w-1/4 md:w-1/2 p-4">
-              <Link to={"https://1drv.ms/u/s!Al4ms1EwsO8BgZYaxjouebkphmQ5sw?e=I2Kqbw"}>
+              <Link
+                to={
+                  "https://1drv.ms/u/s!Al4ms1EwsO8BgZYaxjouebkphmQ5sw?e=I2Kqbw"
+                }
+              >
                 <div
                   style={{ height: "180px", width: "280px" }}
                   className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -52,10 +56,10 @@ export default function c_Lan() {
                   </h3>
                   <h2 className="text-lg text-white font-medium title-font mb-4">
                     {" "}
-                    C Language Nots
+                    C Language Notes
                   </h2>
                   <p className="leading-relaxed text-base">
-                    C Language Nots with all chapter and problem solution.
+                    C Language Notes with all chapter and problem solution.
                   </p>
                 </div>
               </Link>

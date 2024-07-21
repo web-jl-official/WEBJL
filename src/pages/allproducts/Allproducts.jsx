@@ -13,6 +13,39 @@ function Allproducts() {
             <div className="lg:w-1/4 sm:w-1/2 p-4 w-full">
               <div
                 className="flex relative h-48 rounded overflow-hidden"
+                style={{
+                  backgroundColor: "rgb(248, 243, 243)",
+                  justifyContent: "center",
+                }}
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  style={{ backgroundColor: "#181818", width: "fit-content" }}
+                  src="data:image/png;base64,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"
+                />
+              </div>
+              <div className="mt-4">
+                <h3 className="   text-white text-xs tracking-widest title-font mb-1">
+                  DSA Program
+                </h3>
+                <h2 className="text-white title-font text-lg font-medium">
+                  DSA (Data Structures & Algorithms)
+                </h2>
+                <p className="mt-1">$Free</p>
+                <div className=" flex justify-center  mt-2">
+                  <Link
+                    to="/DSA"
+                    className="focus:outline-none m-2 text-black bg-cyan-400 hover:bg-violet-500 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2 text-center"
+                  >
+                    Enroll Now
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="lg:w-1/4 sm:w-1/2 p-4 w-full">
+              <div
+                className="flex relative h-48 rounded overflow-hidden"
                 style={{ backgroundColor: "#10325c", justifyContent: "center" }}
               >
                 <img

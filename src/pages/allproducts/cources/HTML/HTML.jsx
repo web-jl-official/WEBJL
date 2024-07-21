@@ -35,7 +35,7 @@ export default function HTML() {
                       HTML, CSS, JS Video Leacture in Hindi - Palylist
                     </h2>
                     <p className="leading-relaxed text-base">
-                      This Leacture Created By "Code_With_Herry"
+                      This Leacture Created By "Code_With_harry"
                     </p>
                   </div>
                 </Link>
@@ -51,7 +51,7 @@ export default function HTML() {
                       Web Developing
                     </h3>
                     <h2 className="text-lg text-white font-medium title-font mb-4">
-                      Nots{" "}
+                      Notes{" "}
                     </h2>
                     <p className="leading-relaxed text-base">HTML, CSS</p>
                   </div>

@@ -1,7 +1,6 @@
-import React from 'react'
-import Layout from '../../../../components/layout/Layout'
-import { Link } from 'react-router-dom';
-
+import React from "react";
+import Layout from "../../../../components/layout/Layout";
+import { Link } from "react-router-dom";
 
 export default function Python() {
   return (
@@ -33,10 +32,10 @@ export default function Python() {
                       Python Language
                     </h3>
                     <h2 className="text-lg text-white font-medium title-font mb-4">
-                      Python Video Leacture in Hindi
+                      Python Video Lecturer in Hindi
                     </h2>
                     <p className="leading-relaxed text-base">
-                      This Leacture Created By "Code_with_Herry"
+                      This Lecturer Created By "Code_with_harry"
                     </p>
                   </div>
                 </Link>
@@ -52,10 +51,10 @@ export default function Python() {
                       Python Language
                     </h3>
                     <h2 className="text-lg text-white font-medium title-font mb-4">
-                      Python Video Leacture in Hindi
+                      Python Video Lecturer in Hindi
                     </h2>
                     <p className="leading-relaxed text-base">
-                      This Leacture Created By "Chai_or_Code"
+                      This Lecturer Created By "Chai_or_Code"
                     </p>
                   </div>
                 </Link>
@@ -93,7 +92,7 @@ export default function Python() {
                       Python Notes
                     </h2>
                     <p className="leading-relaxed text-base">
-                      All Notes OF Python with chepter wise from code_with_herry
+                      All Notes OF Python with chepter wise from code_with_harry
                     </p>
                   </div>
                 </Link>
@@ -128,7 +127,7 @@ export default function Python() {
                       Python Language
                     </h3>
                     <h2 className="text-lg text-white font-medium title-font mb-4">
-                      Python Qr Code Generate
+                      Python Qr Code Generator
                     </h2>
                     <p className="leading-relaxed text-base">
                       Qr Code Generater Upi, Data, link, upi Amount Software etc

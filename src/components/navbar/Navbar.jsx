@@ -18,6 +18,7 @@ function Navbar() {
 
   const [open, setOpen] = useState(false);
 
+
   const user = JSON.parse(localStorage.getItem("user"));
   
 
@@ -94,19 +95,16 @@ function Navbar() {
                       Intership
                     </Link>
                   </div>
+                  <div>
+                    <Link
+                      to={user ? "/Mimit" : "/login"}
+                      className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
+                    >
+                      Mimit College
+                    </Link>
+                  </div>
 
-                  {user ? (
-                    <div>
-                      <Link
-                        to={"/order"}
-                        className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
-                      >
-                        Order
-                      </Link>
-                    </div>
-                  ) : (
-                    ""
-                  )}
+                  
 
                   <div>
                     <Link
@@ -124,26 +122,9 @@ function Navbar() {
                       Premium Courses
                     </Link>
                   </div>
-                  <div>
-                    <Link
-                      to={user ? "/OnlineTest" : "/login"}
-                      className="text-sm font-medium    text-white   hover:text-cyan-400 "
-                    >
-                      Online Test
-                    </Link>
-                  </div>
-                  <div>
-                    {user?.user?.email === "lgteamworkofficial@gmail.com" ? (
-                      <Link
-                        to={"/dashboard"}
-                        className="text-sm font-medium text-white   hover:text-cyan-400 "
-                      >
-                        Admin
-                      </Link>
-                    ) : (
-                      ""
-                    )}
-                  </div>
+                 
+                 
+                  
 
                   <div>
                     <Link
@@ -353,6 +334,12 @@ function Navbar() {
                   >
                     Intership
                   </Link>
+                  <Link
+                    to={user ? "/Mimit" : "/login"}
+                    className="text-sm font-medium text-white  hover:text-cyan-400 "
+                  >
+                    Mimit College
+                  </Link>
 
                   <Link
                     to={"/allproducts"}
@@ -367,36 +354,6 @@ function Navbar() {
                   >
                     Premium Courses
                   </Link>
-
-                  {user ? (
-                    <Link
-                      to={"/order"}
-                      className="text-sm font-medium    text-white  hover:text-cyan-400 "
-                    >
-                      Order
-                    </Link>
-                  ) : (
-                    ""
-                  )}
-
-                  
-                    <Link
-                      to={user ? "/OnlineTest" : "/login"}
-                      className="text-sm font-medium    text-white  hover:text-cyan-400 "
-                    >
-                      Online Test
-                  </Link>
-                  
-                  {user?.user?.email === "lgteamworkofficial@gmail.com" ? (
-                    <Link
-                      to={"/dashboard"}
-                      className="text-sm font-medium text-white  hover:text-cyan-400 "
-                    >
-                      Admin
-                    </Link>
-                  ) : (
-                    ""
-                  )}
 
                   {user ? (
                     <div className="flow-root">

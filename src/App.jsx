@@ -78,11 +78,18 @@ import Resetpassword from './pages/registration/Resetpassword';
 import WEB_DEVLOPMENT from './pages/all prumium cources/cources/WEB_DEVLOPMENT';
 
 
+import DSA from "./pages/allproducts/cources/DSA/DSA";
+
+import Mimit from "./pages/MIMIT/MImit";
+import CN from "./pages/MIMIT/Subject/CN";
+
 
 import Birthday from './pages/Birthday/Birthday';
 import Github from './pages/all prumium cources/cources/Github';
 import NewIntership from './pages/New intership/NewIntership';
 import Testimonial from './components/testimonial/Testimonial';
+
+
 
 
 
@@ -180,6 +187,11 @@ function App() {
           <Route path="/Easy_HTML" element={<EASY_HTML />} />
           <Route path="/Js_cource" element={<Js_cource />} />
           <Route path="/texttospeech" element={<TextToSpeech />} />
+
+          <Route path="/DSA" element={<DSA />} />
+
+          <Route path="/Mimit" element={<Mimit />} />
+          <Route path="/Mimit/CN" element={<CN />} />
 
           <Route path="/Birthday" element={<Birthday />} />
           <Route path="/Github" element={<Github />} />

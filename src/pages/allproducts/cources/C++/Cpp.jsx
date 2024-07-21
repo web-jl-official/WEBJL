@@ -1,5 +1,5 @@
-import React from 'react'
-import Layout from '../../../../components/layout/Layout'
+import React from "react";
+import Layout from "../../../../components/layout/Layout";
 import { Link } from "react-router-dom";
 
 export default function Cpp() {
@@ -38,10 +38,10 @@ export default function Cpp() {
                       C++ Language
                     </h3>
                     <h2 className="text-lg text-white font-medium title-font mb-4">
-                      C++ Video Leacture in Hindi
+                      C++ Video Lecturer in Hindi
                     </h2>
                     <p className="leading-relaxed text-base">
-                      This Leacture Created By "Code_with_Herry"
+                      This Lecturer Created By "Code_with_harry"
                     </p>
                   </div>
                 </a>

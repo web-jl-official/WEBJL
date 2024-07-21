@@ -144,6 +144,20 @@ const Birthday = () => {
           "https://drive.google.com/file/d/1E76gsQuPj62acHdP7mcLOOqz93y6wX7z/view?usp=drive_link"
         );
         break;
+      case "2005-12-18":
+      case "2024-12-18":
+        setUserName("Muskan");
+        setImage(
+          "https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/Birthday%20Card%2FMuskan%20sahu.jpeg?alt=media&token=61a79bce-6e67-4cf2-ae33-57707da0f966"
+        );
+        setBirthWish(
+          `Happy Birthday to the most amazing sister in the world! Your kindness, love, and support mean everything to me. I am so grateful to have you in my life, and I cherish every moment we share. May your special day be filled with joy, laughter, and all the wonderful things you deserve. Love you always!`
+        );
+        setDownlode(
+          "https://drive.google.com/file/d/1EkPneB8-VYB9MzAp7gq501qGJVo4f7JY/view?usp=drive_link"
+        );
+        break;
+
       default:
         setUserName("Brother/Sister");
         setImage(
@@ -198,7 +212,7 @@ const Birthday = () => {
           <div
             id="2output"
             style={{ display: "flex" }}
-            className="bg-black/60 w-full h-screen  justify-center text-center items-center"
+            className="bg-black/60 w-full h-full p-12 justify-center text-center items-center"
           >
             <div className="max-w-sm mx-auto  shadow-lg rounded-lg overflow-hidden">
               <div className="bg-white">
@@ -222,13 +236,13 @@ const Birthday = () => {
                 <button
                   onClick={handleDownload}
 
-                  className="bg-blue-500 text-white px-4 py-2 rounded"
+                  className="bg-blue-500 text-white px-4 py-2 m-2 rounded"
                 >
                   Downlode Card
                 </button>
                 <button
                   onClick={back}
-                  className="bg-blue-500 text-white px-4 py-2 rounded"
+                  className="bg-blue-500 text-white px-4 py-2 m-2 rounded"
                 >
                   Back To Input
                 </button>

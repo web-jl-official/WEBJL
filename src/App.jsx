@@ -82,6 +82,9 @@ import DSA from "./pages/allproducts/cources/DSA/DSA";
 
 import Mimit from "./pages/MIMIT/MImit";
 import CN from "./pages/MIMIT/Subject/CN";
+import PythonM from './pages/MIMIT/Subject/PYTHON';
+import DSAM from './pages/MIMIT/Subject/DSA'
+import PCATM from './pages/MIMIT/Subject/PCAT';
 
 
 import Birthday from './pages/Birthday/Birthday';
@@ -110,8 +113,6 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/OnlineTest" element={<Test />} />
-          <Route path="/NewUpdate" element={<NewIntership />} />
           <Route path="/webJlmembers" element={<Testimonial />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/allproducts" element={<Allproducts />} />
@@ -155,7 +156,6 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/resetpassword" element={<Resetpassword />} />
           <Route path="/*" element={<NoPage />} />
-
           <Route path="/Privacy" element={<Privacy />} />
           <Route path="/ReturnPolicy" element={<ReturnPolicy />} />
           <Route path="/ContactUs" element={<ContactUs />} />
@@ -192,9 +192,14 @@ function App() {
 
           <Route path="/Mimit" element={<Mimit />} />
           <Route path="/Mimit/CN" element={<CN />} />
+          <Route path="/Mimit/Python" element={<PythonM />} />
+          <Route path="/Mimit/DSA" element={<DSAM />} />
+          <Route path="/Mimit/PCAT" element={<PCATM />} />
 
           <Route path="/Birthday" element={<Birthday />} />
           <Route path="/Github" element={<Github />} />
+          <Route path="/NewUpdate" element={<NewIntership />} />
+          <Route path="/OnlineTest" element={<Test />} />
         </Routes>
         <ToastContainer />
       </Router>

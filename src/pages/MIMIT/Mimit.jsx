@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const MImit = () => {
     return (
       <Layout>
-        <section className="text-gray-600 body-font">
+        <section className="text-gray-600 body-font inset-0">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
               <h1
@@ -27,7 +27,7 @@ const MImit = () => {
               <div className="flex flex-wrap -m-4">
                 {/* anker tag using link for page */}
                 <div className="xl:w-1/4 md:w-1/2 p-4">
-                  <Link to="">
+                  <Link to="/Mimit/DSA">
                     <div
                       style={{ height: "180px", width: "280px" }}
                       className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -61,7 +61,7 @@ const MImit = () => {
                 </div>
                 {/* anker tag using link for page */}
                 <div className="xl:w-1/4 md:w-1/2 p-4">
-                  <Link to="">
+                  <Link to="/Mimit/Python">
                     <div
                       style={{ height: "180px", width: "280px" }}
                       className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
@@ -78,7 +78,7 @@ const MImit = () => {
                 </div>
                 {/* anker tag using link for page */}
                 <div className="xl:w-1/4 md:w-1/2 p-4">
-                  <Link to="">
+                  <Link to="/Mimit/PCAT">
                     <div
                       style={{ height: "180px", width: "280px" }}
                       className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"

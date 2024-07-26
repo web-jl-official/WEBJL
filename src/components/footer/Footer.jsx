@@ -96,7 +96,7 @@ function Footer() {
               <nav className="list-none mb-10">
                 <li>
                   <a
-                    href="https://u.pcloud.link/publink/show?code=XZ1q7P0ZOpeiUpaPPEuLaJowHPVcjptf2l4V"
+                    href="https://drive.google.com/file/d/1KkxSt_FjL4AK4Ra0g03ZPOQAxxIZlpsa/view?usp=sharing"
                     className="text-white ml-1  hover:text-cyan-400"
                   >
                     Windows App
@@ -104,7 +104,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://u.pcloud.link/publink/show?code=XZIq7P0ZGoMtUs10eeYPRxNRQoJ5NbtbPWXV"
+                    href="https://drive.google.com/file/d/1jcqVOrNUZ3wA9sUYmTZMBurvYHxRl6-G/view?usp=sharing"
                     className="text-white ml-1  hover:text-cyan-400"
                   >
                     Android App

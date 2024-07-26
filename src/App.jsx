@@ -85,6 +85,11 @@ import CN from "./pages/MIMIT/Subject/CN";
 import PythonM from './pages/MIMIT/Subject/PYTHON';
 import DSAM from './pages/MIMIT/Subject/DSA'
 import PCATM from './pages/MIMIT/Subject/PCAT';
+import PCTAL from "./pages/MIMIT/Subject/PCTAL";
+import DSAL from "./pages/MIMIT/Subject/DSAL";
+import CNL from "./pages/MIMIT/Subject/CNL";
+import PythonL from "./pages/MIMIT/Subject/PythonL";
+
 
 
 import Birthday from './pages/Birthday/Birthday';
@@ -192,10 +197,15 @@ function App() {
 
           <Route path="/Mimit" element={<Mimit />} />
           <Route path="/Mimit/CN" element={<CN />} />
+          <Route path="/Mimit/CNL" element={<CNL />} />
           <Route path="/Mimit/Python" element={<PythonM />} />
+          <Route path="/Mimit/PythonL" element={<PythonL />} />
           <Route path="/Mimit/DSA" element={<DSAM />} />
+          <Route path="/Mimit/DSAL" element={<DSAL />} />
           <Route path="/Mimit/PCAT" element={<PCATM />} />
+          <Route path="/Mimit/PCATL" element={<PCTAL />} />
 
+          
           <Route path="/Birthday" element={<Birthday />} />
           <Route path="/Github" element={<Github />} />
           <Route path="/NewUpdate" element={<NewIntership />} />

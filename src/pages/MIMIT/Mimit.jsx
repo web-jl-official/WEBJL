@@ -93,6 +93,74 @@ const MImit = () => {
                     </div>
                   </Link>
                 </div>
+                {/* anker tag using link for page */}
+                <div className="xl:w-1/4 md:w-1/2 p-4">
+                  <Link to="/Mimit/DSAL">
+                    <div
+                      style={{ height: "180px", width: "280px" }}
+                      className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
+                    >
+                      <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
+                        Mimit College 3rd Sem.
+                      </h3>
+                      <h2 className="text-lg text-white font-medium title-font mb-4">
+                        DSA Lab (Data Structures & Algorithms)
+                      </h2>
+                      <p className="leading-relaxed text-base">College Work</p>
+                    </div>
+                  </Link>
+                </div>
+                {/* anker tag using link for page */}
+                <div className="xl:w-1/4 md:w-1/2 p-4">
+                  <Link to="/Mimit/CNL">
+                    <div
+                      style={{ height: "180px", width: "280px" }}
+                      className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
+                    >
+                      <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
+                        Mimit College 3rd Sem.
+                      </h3>
+                      <h2 className="text-lg text-white font-medium title-font mb-4">
+                        CN Lab (Computer Network)
+                      </h2>
+                      <p className="leading-relaxed text-base"> College Work</p>
+                    </div>
+                  </Link>
+                </div>
+                {/* anker tag using link for page */}
+                <div className="xl:w-1/4 md:w-1/2 p-4">
+                  <Link to="/Mimit/PythonL">
+                    <div
+                      style={{ height: "180px", width: "280px" }}
+                      className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
+                    >
+                      <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
+                        Mimit College 3rd Sem.
+                      </h3>
+                      <h2 className="text-lg text-white font-medium title-font mb-4">
+                        Python Lab
+                      </h2>
+                      <p className="leading-relaxed text-base">College Work</p>
+                    </div>
+                  </Link>
+                </div>
+                {/* anker tag using link for page */}
+                <div className="xl:w-1/4 md:w-1/2 p-4">
+                  <Link to="/Mimit/PCATL">
+                    <div
+                      style={{ height: "180px", width: "280px" }}
+                      className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
+                    >
+                      <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
+                        Mimit College 3rd Sem.
+                      </h3>
+                      <h2 className="text-lg text-white font-medium title-font mb-4">
+                        PCAT Lab (Personal Computer - Assemble & Troubleshooting)
+                      </h2>
+                      <p className="leading-relaxed text-base">College Work</p>
+                    </div>
+                  </Link>
+                </div>
               </div>
             </section>
           </div>

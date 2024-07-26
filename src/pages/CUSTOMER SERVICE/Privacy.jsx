@@ -10,7 +10,7 @@ const Privacy = () => {
     <Layout>
       <div id="Profile" className="bg-gray-900   text-white body-font mx-6">
         <h1>Privacy Policy</h1>
-        <p>Last updated: April 22, 2024</p>
+        <p>Last updated: July 25, 2024</p>
         <p>
           This Privacy Policy describes Our policies and procedures on the
           collection, use and disclosure of Your information when You use the
@@ -66,7 +66,7 @@ const Privacy = () => {
             <p>
               <strong>Company</strong> (referred to as either &quot;the
               Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot;
-              in this Agreement) refers to WEB JL .
+              in this Agreement) refers to WEB JL.
             </p>
           </li>
           <li>
@@ -120,13 +120,13 @@ const Privacy = () => {
           </li>
           <li>
             <p>
-              <strong>Website</strong> refers to WEB JL , accessible from{" "}
+              <strong>Website</strong> refers to WEB JL, accessible from{" "}
               <a
-                href="https://lgt-college-official.web.app/"
+                href="https://webjl.web.app/"
                 rel="external nofollow noopener"
                 target="_blank"
               >
-                https://lgt-college-official.web.app/
+                https://webjl.web.app/
               </a>
             </p>
           </li>
@@ -153,6 +153,12 @@ const Privacy = () => {
           </li>
           <li>
             <p>First name and last name</p>
+          </li>
+          <li>
+            <p>Phone number</p>
+          </li>
+          <li>
+            <p>Address, State, Province, ZIP/Postal code, City</p>
           </li>
           <li>
             <p>Usage Data</p>
@@ -528,15 +534,16 @@ const Privacy = () => {
           <li>
             By visiting this page on our website:{" "}
             <a
-              href="https://lgt-college-official.web.app/ContactUs"
+              href="https://webjl.web.app/ContactUs"
               rel="external nofollow noopener"
               target="_blank"
             >
-              https://lgt-college-official.web.app/ContactUs
+              https://webjl.web.app/ContactUs
             </a>
           </li>
         </ul>
       </div>
+     
     </Layout>
   );
 };

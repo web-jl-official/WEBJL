@@ -93,11 +93,12 @@ import PythonL from "./pages/MIMIT/Subject/PythonL";
 
 
 import Birthday from './pages/Birthday/Birthday';
-import Github from './pages/all prumium cources/cources/Github';
 import NewIntership from './pages/New intership/NewIntership';
 import Testimonial from './components/testimonial/Testimonial';
 
 
+import Github from "./pages/all prumium cources/cources/Github";
+import LinuxTool from './pages/all prumium cources/cources/Linux Tool';
 
 
 
@@ -205,9 +206,10 @@ function App() {
           <Route path="/Mimit/PCAT" element={<PCATM />} />
           <Route path="/Mimit/PCATL" element={<PCTAL />} />
 
-          
-          <Route path="/Birthday" element={<Birthday />} />
           <Route path="/Github" element={<Github />} />
+          <Route path="/LinuxTool" element={<LinuxTool />} />
+
+          <Route path="/Birthday" element={<Birthday />} />
           <Route path="/NewUpdate" element={<NewIntership />} />
           <Route path="/OnlineTest" element={<Test />} />
         </Routes>

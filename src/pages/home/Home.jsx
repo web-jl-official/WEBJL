@@ -1,9 +1,12 @@
-import React, { Fragment, useContext, use, useState, useEffect } from "react";
+import React, {lazy, Suspense, Fragment, useContext, use, useState, useEffect } from "react";
 import Layout from "../../components/layout/Layout";
 import { Link } from "react-router-dom";
-import ProductCard2 from "../../components/productCard/ProductCard2";
-import HomeEntery from "../../components/productCard/HomeEntery";
-import HeroSection from "../../components/heroSection/HeroSection";
+const HeroSection = lazy(() =>
+  import("../../components/heroSection/HeroSection")
+);
+//import HeroSection from "../../components/heroSection/HeroSection";
+import ProductCard2 from "../../components/productCard/ProductCard2"
+
 
 function Home() {
 
@@ -12,7 +15,9 @@ function Home() {
     <Layout>
       <div className="w-full h-full bg-center bg-fixed bg-no-repeat bg-cover bg-gray-900">
         <div>
-         <HeroSection/>
+          <Suspense fallback={<p className="text-white">Loading...</p>}>
+            <HeroSection />
+          </Suspense>
         </div>
 
         <div>

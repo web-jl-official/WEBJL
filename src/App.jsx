@@ -58,7 +58,7 @@ import HTML_PROJECT_COURCE from './pages/allproducts/cources/HTML/Cources/HTML_P
 import EASY_HTML from './pages/allproducts/cources/HTML/Cources/EASY_HTML';
 import Js_cource from './pages/allproducts/cources/HTML/js/js';
 import TextToSpeech from "./pages/allproducts/cources/HTML/Files/TextToSpeech";
-
+import AI_Model from "./pages/allproducts/cources/HTML/Files/AI Model"
 
 
 import ReactPRo from './pages/allproducts/cources/React/React';
@@ -193,6 +193,7 @@ function App() {
           <Route path="/Easy_HTML" element={<EASY_HTML />} />
           <Route path="/Js_cource" element={<Js_cource />} />
           <Route path="/texttospeech" element={<TextToSpeech />} />
+          <Route path="/AI_Model" element={<AI_Model />} />
 
           <Route path="/DSA" element={<DSA />} />
 

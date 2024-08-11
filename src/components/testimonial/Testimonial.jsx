@@ -29,7 +29,7 @@ function Testimonial() {
                   </p>
                   <p className="text-white leading-relaxed">
                     I am a BCA student. My Languages Python, HTML, CSS, JS,
-                    React JS, DSA, SQL, Firebase.
+                    React JS, DSA, SQL, Firebase, Unity, Unreal Engine .
                   </p>
 
                   <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
@@ -39,7 +39,9 @@ function Testimonial() {
                   >
                     LIVESH KUMAR GARG
                   </h2>
-                  <p className="   text-white">Web Developer</p>
+                  <p className="   text-white">
+                    Web Developer & Game Developer
+                  </p>
                 </div>
               </div>
 
@@ -65,7 +67,7 @@ function Testimonial() {
                     style={{ color: mode === "dark" ? "#ff4162" : "" }}
                     className="   text-white font-medium title-font tracking-wider text-sm uppercase"
                   >
-                    JATIN DUA
+                    Software Developer
                   </h2>
                   <p
                     style={{ color: mode === "dark" ? "white" : "" }}
@@ -81,7 +83,7 @@ function Testimonial() {
                   <img
                     alt="testimonial"
                     className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/DEVLOPERS%2FTushar.png?alt=media&token=ef869957-b96e-4314-a2c6-8cb0e68c2d46"
+                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/DEVLOPERS%2Fsk.jpg?alt=media&token=6fb4ee8e-fd15-4287-9879-60d15bd59380"
                   />
                   <p className=" leading-relaxed text-cyan-400">
                     Junior Developer & Project Manager.
@@ -90,20 +92,21 @@ function Testimonial() {
                     style={{ color: mode === "dark" ? "white" : "" }}
                     className="leading-relaxed"
                   >
-                    I am a BCA Student. My Language is C++, Python, JavaScript.
+                    I am a B.Tech Student. My Language is C++, C#, Unity, Unreal
+                    Engine .
                   </p>
                   <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
                   <h2
                     style={{ color: mode === "dark" ? "#ff4162" : "" }}
                     className="   text-white font-medium title-font tracking-wider text-sm uppercase"
                   >
-                    Tushar
+                    Sharik Hasan
                   </h2>
                   <p
                     style={{ color: mode === "dark" ? "white" : "" }}
                     className="   text-white"
                   >
-                    Web Developer
+                    App Developer & Game Developer
                   </p>
                 </div>
               </div>
@@ -153,95 +156,13 @@ function Testimonial() {
                   <img
                     alt="team"
                     className="border-white border-2 w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/DEVLOPERS%2FTushar.png?alt=media&token=ef869957-b96e-4314-a2c6-8cb0e68c2d46"
+                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/DEVLOPERS%2Fsk.jpg?alt=media&token=6fb4ee8e-fd15-4287-9879-60d15bd59380"
                   />
                   <div className="flex-grow">
                     <h2 className="text-white title-font font-medium">
-                      Tushar
+                      Sharik Hasan
                     </h2>
                     <p className="text-gray-400">Director & Cource Designer</p>
-                  </div>
-                </div>
-              </div>
-              <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                  <img
-                    alt="team"
-                    className="border-white border-2 w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/JL%20TECH%20(1).png?alt=media&token=6390372c-5d90-41cc-8c25-495b15b9dd54"
-                  />
-                  <div className="flex-grow">
-                    <h2 className="text-white title-font font-medium">
-                      Amarveer
-                    </h2>
-                  </div>
-                </div>
-              </div>
-              <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                  <img
-                    alt="team"
-                    className="border-white border-2 w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/JL%20TECH%20(1).png?alt=media&token=6390372c-5d90-41cc-8c25-495b15b9dd54"
-                  />
-                  <div className="flex-grow">
-                    <h2 className="text-white title-font font-medium">Aseem</h2>
-                  </div>
-                </div>
-              </div>
-              <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                  <img
-                    alt="team"
-                    className="border-white border-2 w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/JL%20TECH%20(1).png?alt=media&token=6390372c-5d90-41cc-8c25-495b15b9dd54"
-                  />
-                  <div className="flex-grow">
-                    <h2 className="text-white title-font font-medium">
-                      Lakhpreet
-                    </h2>
-                  </div>
-                </div>
-              </div>
-              <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                  <img
-                    alt="team"
-                    className="border-white border-2 w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/JL%20TECH%20(1).png?alt=media&token=6390372c-5d90-41cc-8c25-495b15b9dd54"
-                  />
-                  <div className="flex-grow">
-                    <h2 className="text-white title-font font-medium">
-                      Khushi
-                    </h2>
-                  </div>
-                </div>
-              </div>
-              <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                  <img
-                    alt="team"
-                    className="border-white border-2 w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/JL%20TECH%20(1).png?alt=media&token=6390372c-5d90-41cc-8c25-495b15b9dd54"
-                  />
-                  <div className="flex-grow">
-                    <h2 className="text-white title-font font-medium">
-                      Mehak Preet
-                    </h2>
-                  </div>
-                </div>
-              </div>
-              <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                  <img
-                    alt="team"
-                    className="border-white border-2 w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-                    src="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/JL%20TECH%20(1).png?alt=media&token=6390372c-5d90-41cc-8c25-495b15b9dd54"
-                  />
-                  <div className="flex-grow">
-                    <h2 className="text-white title-font font-medium">
-                      Karan Jindal
-                    </h2>
                   </div>
                 </div>
               </div>

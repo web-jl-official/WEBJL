@@ -26,7 +26,6 @@ const Birthday = () => {
     setShowOutput(true);
 
     switch (Date) {
-      case "1998-11-27":
       case "2024-11-27":
         setUserName("Sachin");
         setImage(
@@ -39,7 +38,6 @@ const Birthday = () => {
           "https://drive.google.com/file/d/1cBR0BRpSAo8344P9-gnd0gPBg5cCZ46m/view?usp=drive_link"
         );
         break;
-      case "2004-07-21":
       case "2024-07-21":
         setUserName("Muskan");
         setImage(
@@ -52,7 +50,6 @@ const Birthday = () => {
           "https://drive.google.com/file/d/1MPP6YPjGCj6xpDKnrmAIbo5OapyPT4D0/view?usp=drive_link"
         );
         break;
-      case "2006-02-04":
       case "2024-02-04":
         setUserName("Lakhpreet");
         setImage(
@@ -65,7 +62,6 @@ const Birthday = () => {
           "https://drive.google.com/file/d/1aWdyGFf7xSyGI4xgfGAio5ARzHHJ5axq/view?usp=drive_link"
         );
         break;
-      case "2005-08-19":
       case "2024-08-19":
         setUserName("Aseem");
         setImage(
@@ -78,7 +74,6 @@ const Birthday = () => {
           "https://drive.google.com/file/d/1m5QcvjgsWiB4EulRQ0PHypVSkZiu3BDU/view?usp=drive_link"
         );
         break;
-      case "2005-08-06":
       case "2024-08-06":
         setUserName("Amarveer");
         setImage(
@@ -91,7 +86,6 @@ const Birthday = () => {
           "https://drive.google.com/file/d/1cYIOyYkNgNYr4389V8Qx28reWYS1Q-ix/view?usp=drive_link"
         );
         break;
-      case "2005-09-13":
       case "2024-09-13":
         setUserName("Khushi");
         setImage(
@@ -105,7 +99,6 @@ const Birthday = () => {
         );
 
         break;
-      case "2003-08-31":
       case "2024-08-31":
         setUserName("Raghav");
         setImage(
@@ -118,7 +111,6 @@ const Birthday = () => {
           "https://drive.google.com/file/d/1KZ0yJfT66OJuk4N5DdqGryULc3DitN6a/view?usp=drive_link"
         );
         break;
-      case "2005-10-11":
       case "2024-10-11":
         setUserName("Jatin");
         setImage(
@@ -131,7 +123,6 @@ const Birthday = () => {
           "https://drive.google.com/file/d/1G-VTLJ6USOd6glnuYy4rSS0-_PFkoIUs/view?usp=drive_link"
         );
         break;
-      case "2005-12-20":
       case "2024-12-20":
         setUserName("Sharik");
         setImage(
@@ -144,7 +135,6 @@ const Birthday = () => {
           "https://drive.google.com/file/d/1E76gsQuPj62acHdP7mcLOOqz93y6wX7z/view?usp=drive_link"
         );
         break;
-      case "2005-12-18":
       case "2024-12-18":
         setUserName("Muskan");
         setImage(

@@ -56,8 +56,11 @@ const CNL = () => {
                   Preparing straight and cross cables
                 </td>
                 <td className="text-white p-4 border border-slate-600 ">
-                  <a href="" className="hover:text-cyan-400">
-                    Coming Soon
+                  <a
+                    href="https://mimitbca.blogspot.com/2024/08/preparing-straight-and-cross-cables.html"
+                    className="hover:text-cyan-400"
+                  >
+                    Experiment
                   </a>
                 </td>
               </tr>

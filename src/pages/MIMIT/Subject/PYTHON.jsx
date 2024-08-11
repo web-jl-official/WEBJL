@@ -37,10 +37,13 @@ const PYTHON = () => {
             <tr className="text-white ">
               <td className="text-white p-2 border border-slate-600 ">2.</td>
               <td className="text-white p-4 border border-slate-600 ">
-                Coming Soon
+                History of Python
               </td>
               <td className="text-white p-4 border border-slate-600 ">
-                <a href="#" className="hover:text-cyan-400">
+                <a
+                  href="https://mimitbca.blogspot.com/2024/08/history-of-python.html"
+                  className="hover:text-cyan-400"
+                >
                   Topic
                 </a>
               </td>
@@ -48,28 +51,34 @@ const PYTHON = () => {
             <tr className="text-white ">
               <td className="text-white p-2 border border-slate-600 ">3.</td>
               <td className="text-white p-4 border border-slate-600 ">
-                Coming Soon
+                Keyword , Identifier, Indentation, Comments & Documentation
               </td>
               <td className="text-white p-4 border border-slate-600 ">
-                <a href="#" className="hover:text-cyan-400">
+                <a
+                  href="https://mimitbca.blogspot.com/2024/08/keyword-identifier-indentation-comments.html"
+                  className="hover:text-cyan-400"
+                >
                   Topic
                 </a>
               </td>
             </tr>
             <tr className="text-white ">
-              <td className="text-white p-2 border border-slate-600 ">3.</td>
+              <td className="text-white p-2 border border-slate-600 ">4.</td>
               <td className="text-white p-4 border border-slate-600 ">
-                Coming Soon
+                Difference between Python vs C, C++, java
               </td>
               <td className="text-white p-4 border border-slate-600 ">
-                <a href="#" className="hover:text-cyan-400">
+                <a
+                  href="https://mimitbca.blogspot.com/2024/08/sr-no.html"
+                  className="hover:text-cyan-400"
+                >
                   Topic
                 </a>
               </td>
             </tr>
           </tbody>
         </table>
-      </section>  
+      </section>
     </Layout>
   );
 };

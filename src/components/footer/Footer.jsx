@@ -16,36 +16,36 @@ function Footer() {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className="text-white ml-1  hover:text-cyan-400">Home</a>
+                  <Link className="text-white ml-1  hover:text-cyan-400">Home</Link>
                 </li>
                 <li>
-                  <a className="text-white ml-1  hover:text-cyan-400">
+                  <Link className="text-white ml-1  hover:text-cyan-400">
                     Free Cources
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-white ml-1  hover:text-cyan-400">
+                  <Link className="text-white ml-1  hover:text-cyan-400">
                     Internship
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a className="text-white ml-1  hover:text-cyan-400">
+                  <Link className="text-white ml-1  hover:text-cyan-400">
                     Premium Courses
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-white ml-1  hover:text-cyan-400">
+                  <Link className="text-white ml-1  hover:text-cyan-400">
                     Online Test
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-white ml-1  hover:text-cyan-400">
+                  <Link className="text-white ml-1  hover:text-cyan-400">
                     Account
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-white ml-1  hover:text-cyan-400">Order</a>
+                  <Link className="text-white ml-1  hover:text-cyan-400">Order</Link>
                 </li>
               </nav>
             </div>

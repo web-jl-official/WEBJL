@@ -357,12 +357,12 @@ function Navbar() {
 
                   {user ? (
                     <div className="flow-root">
-                      <a
+                      <Link
                         onClick={logout}
                         className="-m-2 block p-2 font-medium    text-white  hover:text-cyan-400 cursor-pointer"
                       >
                         Logout
-                      </a>
+                      </Link>
                     </div>
                   ) : (
                     <div className="flow-root">

@@ -100,6 +100,8 @@ import Github from "./pages/all prumium cources/cources/Github";
 import LinuxTool from './pages/all prumium cources/cources/Linux Tool';
 
 
+import Raptor from './pages/allproducts/cources/Raptor/Raptor';
+
 
 
 
@@ -211,6 +213,8 @@ function App() {
           <Route path="/Birthday" element={<Birthday />} />
           <Route path="/NewUpdate" element={<NewIntership />} />
           <Route path="/OnlineTest" element={<Test />} />
+
+          <Route path="/FlowChart" element={<Raptor />} />
         </Routes>
         <ToastContainer />
       </Router>

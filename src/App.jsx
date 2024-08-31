@@ -70,6 +70,7 @@ import Python from './pages/allproducts/cources/Python/Python';
 import PY_Calendar from './pages/allproducts/cources/Python/Cources/PY_Calendar';
 import PY_Loop from './pages/allproducts/cources/Python/Cources/Py_Loop';
 import QrCode from "./pages/allproducts/cources/Python/Cources/QrCode";
+import StackQueue from "./pages/allproducts/cources/Python/Cources/Stack&Queue";
 
 
 import Prumium_cources from './pages/all prumium cources/prumium_cources';
@@ -101,6 +102,7 @@ import LinuxTool from './pages/all prumium cources/cources/Linux Tool';
 
 
 import Raptor from './pages/allproducts/cources/Raptor/Raptor';
+
 
 
 
@@ -184,6 +186,7 @@ function App() {
           <Route path="/Py_Loop" element={<PY_Loop />} />
           <Route path="/Py_Calendar" element={<PY_Calendar />} />
           <Route path="/Py_QrCode" element={<QrCode />} />
+          <Route path="/Py_Stack_&_Queue" element={<StackQueue />} />
 
           <Route path="/HTML" element={<HTML />} />
           <Route path="/HTML_COURCE" element={<HTML_PROJECT_COURCE />} />

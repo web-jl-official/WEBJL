@@ -66,6 +66,10 @@ function Login() {
               className=" bg-gray-600 mb-4 px-2 py-2 w-full lg:w-[20em] rounded-lg  placeholder:   text-white outline-none"
               placeholder="Password"
             />
+
+            <span class="password-toggle-icon">
+              <i class="fas fa-eye"></i>
+            </span>
           </div>
           <div className=" flex justify-center mb-3">
             <button
@@ -85,18 +89,14 @@ function Login() {
               </button>
             </Link>
           </div>
-          <div className='flex justify-between mt-8'>
-              <Link
-                className=" text-yellow-500 font-bold"
-                to={"/resetpassword"}
-              >
-                Reset Password
-              </Link>
-              <Link className=" text-yellow-500 font-bold" to={"/"}>
-                Home Page{" "}
-              </Link>
+          <div className="flex justify-between mt-8">
+            <Link className=" text-yellow-500 font-bold" to={"/resetpassword"}>
+              Reset Password
+            </Link>
+            <Link className=" text-yellow-500 font-bold" to={"/"}>
+              Home Page{" "}
+            </Link>
           </div>
-          
         </div>
       </div>
     );

@@ -89,7 +89,7 @@ function Navbar() {
                   </div>
                   <div>
                     <Link
-                      to={user ? "/NewUpdate" : "/login"}
+                      to={"/NewUpdate"}
                       className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
                     >
                       Intership
@@ -329,7 +329,7 @@ function Navbar() {
                     Account
                   </Link>
                   <Link
-                    to={user ? "/NewUpdate" : "/login"}
+                    to={"/NewUpdate"}
                     className="text-sm font-medium text-white  hover:text-cyan-400 "
                   >
                     Intership

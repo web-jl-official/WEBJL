@@ -73,6 +73,36 @@ function Allproducts() {
                 </div>
               </div>
             </div>
+            <div className="lg:w-1/4 sm:w-1/2 p-4 w-full ">
+              <div
+                className="flex relative h-48 rounded overflow-hidden"
+                style={{ backgroundColor: "white", justifyContent: "center" }}
+              >
+                <img
+                  alt="ecommerce"
+                  className="object-cover object-center w-full h-full block"
+                  style={{ backgroundColor: "white", width: "fit-content" }}
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSezobbmbTc7Zzw9iSJdk-qiVKJh05Nrmu-cCOZeP1g9Mxqyp_IW7_G3l8Nd_m-dw7HgFw&usqp=CAU"
+                />
+              </div>
+              <div className="mt-4 text-left">
+                <h3 className="   text-white text-xs tracking-widest title-font mb-1">
+                  Flow Chart
+                </h3>
+                <h2 className="text-white title-font text-lg font-medium">
+                  How To Creat Flow Chart In PC
+                </h2>
+                <p className="mt-1">$Free</p>
+                <div className=" flex justify-center  mt-2">
+                  <Link
+                    to="/FlowChart"
+                    className="focus:outline-none m-2 text-black bg-cyan-400 hover:bg-violet-500 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2 text-center"
+                  >
+                    Enroll Now
+                  </Link>
+                </div>
+              </div>
+            </div>
             <div className="lg:w-1/4 sm:w-1/2 p-4 w-full">
               <div
                 className="flex relative h-48 rounded overflow-hidden"

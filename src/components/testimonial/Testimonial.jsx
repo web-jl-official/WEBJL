@@ -39,6 +39,7 @@ function Testimonial() {
                   >
                     LIVESH KUMAR GARG
                   </h2>
+                  <p className="   text-white">06 December 2003</p>
                   <p className="   text-white">
                     Web Developer & Game Developer
                   </p>
@@ -67,8 +68,9 @@ function Testimonial() {
                     style={{ color: mode === "dark" ? "#ff4162" : "" }}
                     className="   text-white font-medium title-font tracking-wider text-sm uppercase"
                   >
-                    Software Developer
+                    Jatin Dua
                   </h2>
+                  <p className="   text-white">11 October 2005</p>
                   <p
                     style={{ color: mode === "dark" ? "white" : "" }}
                     className="   text-white"
@@ -102,6 +104,7 @@ function Testimonial() {
                   >
                     Sharik Hasan
                   </h2>
+                  <p className="   text-white">20 December 2005</p>
                   <p
                     style={{ color: mode === "dark" ? "white" : "" }}
                     className="   text-white"

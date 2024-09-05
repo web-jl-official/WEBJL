@@ -92,7 +92,6 @@ import PythonL from "./pages/MIMIT/Subject/PythonL";
 
 
 
-import Birthday from './pages/Birthday/Birthday';
 import NewIntership from './pages/New intership/NewIntership';
 import Testimonial from './components/testimonial/Testimonial';
 
@@ -102,6 +101,7 @@ import LinuxTool from './pages/all prumium cources/cources/Linux Tool';
 
 
 import Raptor from './pages/allproducts/cources/Raptor/Raptor';
+import DSAWEB from './pages/DSA/DSA_WEB';
 
 
 
@@ -213,11 +213,11 @@ function App() {
           <Route path="/Github" element={<Github />} />
           <Route path="/LinuxTool" element={<LinuxTool />} />
 
-          <Route path="/Birthday" element={<Birthday />} />
           <Route path="/NewUpdate" element={<NewIntership />} />
           <Route path="/OnlineTest" element={<Test />} />
 
           <Route path="/FlowChart" element={<Raptor />} />
+          <Route path="/DSA_WEB" element={<DSAWEB />} />
         </Routes>
         <ToastContainer />
       </Router>

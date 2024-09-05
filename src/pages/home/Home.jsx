@@ -15,9 +15,9 @@ function Home() {
     <Layout>
       <div className="w-full h-full bg-center bg-fixed bg-no-repeat bg-cover bg-gray-900">
         <div>
-          {/* <Suspense fallback={<p className="text-white">Loading...</p>}>
+          <Suspense fallback={<p className="text-white">Loading...</p>}>
             <HeroSection />
-          </Suspense> */}
+          </Suspense>
         </div>
 
         <div>

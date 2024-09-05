@@ -87,6 +87,15 @@ function Navbar() {
                       Account
                     </Link>
                   </div>
+
+                  <div>
+                    <Link
+                      to={"/DSA_WEB"}
+                      className="text-sm font-medium    text-white ml-1  hover:text-cyan-400 "
+                    >
+                      DSA 
+                    </Link>
+                  </div>
                   <div>
                     <Link
                       to={"/NewUpdate"}
@@ -103,9 +112,6 @@ function Navbar() {
                       Mimit College
                     </Link>
                   </div>
-
-                  
-
                   <div>
                     <Link
                       to={"/allproducts"}
@@ -122,10 +128,6 @@ function Navbar() {
                       Premium Courses
                     </Link>
                   </div>
-                 
-                 
-                  
-
                   <div>
                     <Link
                       to={"/About"}
@@ -172,7 +174,7 @@ function Navbar() {
                 </div>
                 <hr />
                 <div>
-                  <span className="ml-2 inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                  <span className="ml-2 inline-flex sm:ml-auto sm:mt-3 mt-4 justify-center sm:justify-start">
                     <a
                       href="https://www.facebook.com/profile.php?id=61559331197014"
                       className="  text-white ml-1  hover:text-cyan-400"
@@ -333,6 +335,12 @@ function Navbar() {
                     className="text-sm font-medium text-white  hover:text-cyan-400 "
                   >
                     Intership
+                  </Link>
+                  <Link
+                    to={"/DSA_WEB"}
+                    className="text-sm font-medium text-white  hover:text-cyan-400 "
+                  >
+                    DSA
                   </Link>
                   <Link
                     to={"/Mimit"}

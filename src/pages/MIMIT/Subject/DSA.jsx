@@ -10,47 +10,25 @@ const DSA = () => {
         <section className="bg-gray-900 text-white body-font">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap -m-4 ">
-              <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-                <div className="mt-4 border-4 p-2 rounded-xl">
-                  <h3 className="   text-white text-xs tracking-widest title-font mb-1">
-                    DSA Leacture
-                  </h3>
-                  <h2 className="text-white title-font text-lg font-medium mb-1">
-                    1. Array
-                  </h2>
-
-                  <Link
-                    className="flex justify-center text-center items-center m-4"
-                    to="https://firebasestorage.googleapis.com/v0/b/webjl26.appspot.com/o/MIMIT%20COURCES%2FDSA%2F1.2.1%20Linear%20Arrays.pdf?alt=media&token=2ca2a77d-9f8c-4911-b336-c6dedc26013f"
+              {/* anker tag using link for page */}
+              <div className="xl:w-1/4 md:w-1/2 p-4">
+                <a href="https://drive.google.com/file/d/1cQnPczXKksIzXYC41HZLvH8CwjId83FD/view?usp=sharing">
+                  <div
+                    style={{ height: "180px", width: "280px" }}
+                    className="bg-gray-800 bg-opacity-40 p-6 rounded-lg"
                   >
-                    <button className=" bg-purple-800 text-white text-3xl p-1 m-2 border-2 border-white rounded-xl w-96">
-                      Link of PDF
-                    </button>
-                  </Link>
-                </div>
+                    <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">
+                      DSA Program
+                    </h3>
+                    <h2 className="text-lg text-white font-medium title-font mb-4">
+                      DSA Notes MIMIT
+                    </h2>
+                    <p className="leading-relaxed text-base">
+                      This Notes By MIMIT College
+                    </p>
+                  </div>
+                </a>
               </div>
-
-              <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-                <div className="mt-4 border-4 p-2 rounded-xl">
-                  <h3 className="   text-white text-xs tracking-widest title-font mb-1">
-                    DSA 
-                  </h3>
-                  <h2 className="text-white title-font text-lg font-medium mb-1">
-                    Coming Soon
-                  </h2>
-
-                  <Link
-                    className="flex justify-center text-center items-center m-4"
-                    to=""
-                  >
-                    <button className=" bg-purple-800 text-white text-3xl p-1 m-2 border-2 border-white rounded-xl w-96">
-                      Link of PDF
-                    </button>
-                  </Link>
-                </div>
-              </div>
-
-             
             </div>
           </div>
         </section>

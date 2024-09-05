@@ -16,7 +16,9 @@ function Footer() {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <Link className="text-white ml-1  hover:text-cyan-400">Home</Link>
+                  <Link className="text-white ml-1  hover:text-cyan-400">
+                    Home
+                  </Link>
                 </li>
                 <li>
                   <Link className="text-white ml-1  hover:text-cyan-400">
@@ -45,7 +47,9 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-white ml-1  hover:text-cyan-400">Order</Link>
+                  <Link className="text-white ml-1  hover:text-cyan-400">
+                    Order
+                  </Link>
                 </li>
               </nav>
             </div>
@@ -125,14 +129,14 @@ function Footer() {
               </div>
             </Link>
             <p className="text-sm    text-white sm:ml-6 sm:mt-0 mt-4">
-              © 2024 WEB JL —
+              Copyright © 2024
               <a
                 href="https://www.instagram.com/livesh_garg_official/"
                 rel="noopener noreferrer"
                 className="   text-white ml-1  hover:text-cyan-400"
                 target="_blank"
               >
-                @https://webjl.web.app/
+                webjl.web.app
               </a>
             </p>
             <span className="ml-2 inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">

@@ -51,6 +51,18 @@ const Profile = () => {
               )}
             </div>
             <div>
+              {user?.user?.email === "lgteamworkofficial@gmail.com" ? (
+                <Link
+                  to={"https://dsa-webjl.web.app/"}
+                  className="text-sm font-medium text-white  hover:text-cyan-400 "
+                >
+                  DSA COURSE
+                </Link>
+              ) : (
+                ""
+              )}
+            </div>
+            <div>
               <Link
                 to={user ? "/OnlineTest" : "/login"}
                 className="text-sm font-medium    text-white  hover:text-cyan-400 "

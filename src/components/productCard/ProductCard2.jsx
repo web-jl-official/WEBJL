@@ -1,10 +1,13 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from 'react-router-dom';
+
 const ProductCard2 = () => {
 
   
-const user = JSON.parse(localStorage.getItem("user"));
+
   
+  
+     
   
     return (
       <div className="text-white w-full flex flex-wrap justify-center text-center items-center">
@@ -25,13 +28,13 @@ const user = JSON.parse(localStorage.getItem("user"));
               WEB JL DSA
             </h3>
             <h2 className="text-white title-font text-lg font-medium">
-              DSA COURCE (By WEB JL)
+              DSA COURSE (By WEB JL)
             </h2>
-            <p className="mt-1">Coming on 11 October 2024</p>
+
             <p className="mt-1">$Free</p>
             <div className=" flex justify-center  mt-2">
               <Link
-                to={user ? "https://dsa-webjl.web.app/" : "/login"}
+                to={"https://webjldsa.web.app/"} // "https://webjldsa.web.app/"
                 className="focus:outline-none m-2 text-black bg-cyan-400 hover:bg-violet-500 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2 text-center"
               >
                 Enroll Now
